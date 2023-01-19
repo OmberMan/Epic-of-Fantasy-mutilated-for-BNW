@@ -10,11 +10,9 @@
 		"cost": 150,
 		"requiredResource": "Iron",
 		"requiredTech": "Iron Working",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
 		"promotions": ["Exposed Core"],
 		"uniques": ["Construct"],
-		"hurryCostModifier": 40,
+		"hurryCostModifier": 50,
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "A construct made of Orichalcum. Its sturdiness exceeds that of a Diamond. This makes the golem a formidable foe in the battlefield."},
