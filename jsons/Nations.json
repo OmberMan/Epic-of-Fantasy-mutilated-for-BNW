@@ -663,13 +663,13 @@
 		"introduction": "I am a horseman we are the horseman",
 		
 		"neutralHello": "Greetings biped.",
-		"hateHello": "Bastard. I'm going to kill you with an axe was ha.",
+		"hateHello": "Bastard.",
 		"tradeRequest": "Throw in some spare horses with that.",
 		
 		"outerColor": [150,41,41],
 		"innerColor": [74,35,35],
 		"uniqueName": "Running with the herd",
-		"uniques": ["[+2] Movement <for [Land] units>", "[-33]% Strength <vs [Spearman] units> <for [Sword] units>", "[-33]% Strength <vs [Spearman] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Spearman] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Spearman] units> <for [Ranged Gunpowder] units> <when defending>", ], 
+		"uniques": ["[+2] Movement <for [Land] units>", "[-2] Movement <for [Armor] units>", "[+100]% to Flank Attack bonuses <for [Land] units>", "[-100]% to Flank Attack bonuses <for [Armor] units>", "No defensive terrain bonus <for [Land] units>", "[-33]% Strength <vs [Spearman] units> <for [Sword] units>", "[-33]% Strength <vs [Spearman] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Spearman] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Spearman] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Pikeman] units> <for [Sword] units>", "[-33]% Strength <vs [Pikeman] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Pikeman] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Pikeman] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Formation I] units> <for [Sword] units>", "[-33]% Strength <vs [Formation I] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Formation I] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Formation I] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% growth [in all non-occupied cities]", "Cannot build [Mounted] units"], 
 		"cities": ["Konstan","Apios","Oretus","Stergeneus","Barbadia","Naesima","Depheis","Monolea","Kaselaia","Arganassa","Haiderine","Zeran",
 			"Erasandrou","Perridas","Thomeimon","Coleros","Eusantes"],
 		"civilopediaText": [
@@ -826,14 +826,14 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "Turn around quick, and start to run.",
-		"attacked": "Oh, no, no, please, God, help me!",
-		"defeated": "Is it the end, my friend?",
-		"introduction": "What is this that stands before me?",
+		"declaringWar": ".",
+		"attacked": ".!",
+		"defeated": ".",
+		"introduction": ".",
 		
-		"neutralHello": "Figure in black which points at me.",
-		"hateHello": "Satan's sitting there, he's smiling.",
-		"tradeRequest": "Satan's coming 'round the bend.",
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
 		
 		"outerColor": [77,145,129],
 		"innerColor": [15,247,193],
