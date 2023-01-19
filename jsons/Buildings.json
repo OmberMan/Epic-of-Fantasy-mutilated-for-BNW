@@ -25,7 +25,7 @@
 		"uniques": ["Must be next to [Mountain]", 
 					//"[+1 Science] from [Mine] tiles [in this city]", 
                 "[+10]% [Production] [in this city]"],
-		"requiredTech": "Education",
+		"requiredTech": "Optics",
 		"civilopediaText": [
 			{"text": "Dwarven tinkerer often has their own place to tinker and mess around with their invention."},
         ]
