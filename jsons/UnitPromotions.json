@@ -785,11 +785,11 @@
 	//Dwarven Kingdom~~~~~~~
 	{
 		"name": "Construct",
-		"uniques": ["[+25]% Strength <when defending>"]
+		"uniques": ["[+20]% Strength <when defending> <when above [40] HP>", "[+20]% Strength <when defending> <vs [Archer] units> <when above [40] HP>", "Unable to capture cities", "No Sight", "Uncapturable", "Damage is ignored when determining unit Strength", "[2] HP when healing" "All healing effects doubled <in [City center] tiles>"]
 	},
 	{
 		"name": "Exposed Core",
-		"uniques": ["[+50]% Strength <when below [40] HP>"]
+		"uniques": ["[+40]% Strength <when attacking> <when below [40] HP>"]
 	},
 	
 	//Drow Village~~~~~~~
