@@ -107,8 +107,8 @@
 	{
 		"name": "Old God Monument",
 		"uniqueTo": "Children of Deep Dweller",
-		"culture": 2,
-		"faith": 1,
+		"culture": 1,
+		"faith": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
@@ -393,7 +393,8 @@
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Forest]", "+2 Artist slots"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Theology"
+		"requiredTech": "Philosophy
+"
 	},
 	
 	//Clockwerk Church
@@ -679,15 +680,16 @@
 	{
 		"name": "Qingbai Wares",
 		"uniqueTo": "Fanrong Republic",
-		"replaces": "National Treasury",
-		"cost": 125,
-		"gold": 8,
+		"replaces": "Market",
+		"cost": 85,
+		"gold": 3,
+                "percentStatBonus": {"gold": 15},
 		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city", "Provides [3] [Porcelain]"],
-		"requiredTech": "Guilds",
+		"specialistSlots": {"Merchant": 1},
+		"uniques": ["Cost increases by [20] per owned city", "Provides [1] [Porcelain]"],
+		"requiredTech": "Currency",
 		"civilopediaText": [
-			{"text": "Fanrong Republic is famous for their Porcelain. Industry of Porcelain as its main commodity,"},
+			{"text": "Fanrong Republic is famous for their Porcelain. Industry of Porcelain as its main commodity"},
         ]
 	},
 	
