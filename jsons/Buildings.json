@@ -379,7 +379,7 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 2,
-	//	"faith": 1,
+		"faith": 1,
 		"cityStrength": 2,
 		"cost": 1,
 		"percentStatBonus": {"science": 15, "faith": 15, "culture": 15,},
@@ -389,12 +389,13 @@
 		"name": "Dryad's Hut",
 		"uniqueTo": "Nature's Keeper",
 		"replaces": "Garden",
+                "cost": 100,
+                "food": 1,
 		"specialistSlots": {"Artist": 2},
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Forest]", "+2 Artist slots"],
+		"uniques": ["[+15]% Great Person generation [in this city]", "Must be next to [Forest]", "+2 Artist slots"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Philosophy
-"
+		"requiredTech": "Philosophy"
 	},
 	
 	//Clockwerk Church
