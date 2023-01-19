@@ -19,11 +19,13 @@
 		"name": "Tinkerer's Depot",
 		"uniqueTo": "Dwarven Kingdom",
 		"replaces": "Observatory",
-		"maintenance": 0,
+		"maintenance": 1,
 		"percentStatBonus": {"science": 50},
+                "specialistSlots": {"Scientist": 1},
 		"uniques": ["Must be next to [Mountain]", 
-					"[+1 Science] from [Mine] tiles [in this city]", "[+10]% [Production] [in this city]"],
-		"requiredTech": "Astronomy",
+					//"[+1 Science] from [Mine] tiles [in this city]", 
+                "[+10]% [Production] [in this city]"],
+		"requiredTech": "Education",
 		"civilopediaText": [
 			{"text": "Dwarven tinkerer often has their own place to tinker and mess around with their invention."},
         ]
