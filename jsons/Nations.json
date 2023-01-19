@@ -23,7 +23,7 @@
 		"innerColor": [213,249,255],
 		"uniqueName": "Higba's Ingenuity",
 		"uniqueText": "+1 [Production] every 2 eras for cities settled on Hill\n+1 [Science] from every Strategic Resource\n+1 [Production] from every Strategic Resource improved with Mine",
-		"uniques": ["[+2 Gold, +1 Production, +1 Culture] from every [Mountain]",
+		"uniques": ["[+2 Gold, +1 Production, +1 Culture] from every [Mountain]", "[+1 Production] from every [Scientist]",
 					"[+1 Production] from every [Mine] <in [Iron] tiles>",
 					"[+1 Science] from every [Mine] <in [Coal] tiles>",
 					"[+1 Production] from every [Mine] <in [Aluminum] tiles>",
