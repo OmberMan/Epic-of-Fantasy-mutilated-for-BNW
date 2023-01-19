@@ -28,7 +28,7 @@
 					"[+1 Science] from every [Mine] <in [Coal] tiles>",
 					"[+1 Production] from every [Mine] <in [Aluminum] tiles>",
 					"[+1 Science] from every [Mine] <in [Uranium] tiles>",
-                                    "[+1 Culture] from every [Quarry] <in [Stone] tiles>", "[+1 Science] from every [Mine] <in [Copper] tiles>", "[+1 Gold] from every [Mine] <in [Gold ore] tiles>", "[+1 Gold] from every [Mine] <in [Gems] tiles>", "[+1 Gold] from every [Mine] <in [Silver] tiles>",
+                                    "[+1 Culture] from every [Quarry] <in [Stone] tiles>", "[+1 Science] from every [Mine] <in [Copper] tiles>", "[+1 Gold] from every [Mine] <in [Gold Ore] tiles>", "[+1 Gold] from every [Mine] <in [Gems] tiles>", "[+1 Gold] from every [Mine] <in [Silver] tiles>",
 					"[+10]% Production in cities on [Hill] tiles <starting from the [Classical era]>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Modern era]>",
