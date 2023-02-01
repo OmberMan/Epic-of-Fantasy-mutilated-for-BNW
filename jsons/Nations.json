@@ -84,6 +84,7 @@
 		"leaderName": "Rog",
 		"adjective": ["Orc"],
 		"preferredVictoryType": "Domination",
+                "style": "Orcish",
 		
 		"startIntroPart1": "Rog the Destroyer, your sheer strength, size, and power has lifted you to your throne. Respected and feared among the Orcs, you wage one war after another to your heeart desire. Violence and destruction follows your lead. None you gave mercy. Thousands you killed.",
 		"startIntroPart2": "O, mighty Destroyer, your people follows you to your victories. Will you plow through your opponent? Will you destroy those who dare to oppose? Can you ruin civilizations until the end of time?",
@@ -101,7 +102,7 @@
 		"innerColor": [146,221,9],
 		"uniqueName": "Endless Horde",
 	//	"uniqueText": "+20% Production when constructing Military Land units in all cities\n+20% Flank attack bonuses",
-		"uniques": ["[+20]% Production when constructing [{Military} {Land}] units [in all cities]",
+		"uniques": ["[+20]% Production when constructing [{Melee} {Land}] units [in all cities]", "[+15]% Strength <for [{Melee} {Land}] units>", "[-2 Science] [in all cities]", "[-15]% growth [in all non-occupied cities]",
 					"[+20]% to Flank Attack bonuses"], 
 		"cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
