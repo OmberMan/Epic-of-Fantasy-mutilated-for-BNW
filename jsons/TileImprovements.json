@@ -146,9 +146,12 @@
 		"name": "Floating City",
 		"uniqueTo": "Merfolk Council",
 		"production": 1,
+                "culture": 1,
+                "gold": 1,
+                "food": -1,
 		"techRequired": "Optics",
 		"terrainsCanBeBuiltOn": ["Ocean", "Coast"],
-		"uniques": ["Improvement", "[+1 Gold] <after discovering [Guilds]>", "[+2 Culture] <with [1] to [6] neighboring [Water resource] tiles>"],
+		"uniques": ["Improvement", "[+1 Gold] <after discovering [Currency]>", "[+2 Culture] <with [1] to [6] neighboring [Water resource] tiles>", "[+1 Gold] for each adjacent [Water resource]", "Constructing it will take over the tiles around it and assign them to your closest city", "Can be built just outside your borders", "[+1 Science] on [Ocean] tiles"],
 		"civilopediaText": [
 			{"text": "THe Merfolk often has cities on the sea surface."},
         ]
@@ -187,7 +190,7 @@
 		"name": "Mountain Settlement",
 		"uniqueTo": "Harpies Tribe",
 		"turnsToBuild": 1,
-		"techRequired": "Civil Service",
+		"techRequired": "Trapping",
 		"terrainsCanBeBuiltOn": ["Mountain"],
 		"uniqueText": "+1 Culture for each adjacent different-type of Improvement",
 		"uniques": [ "Improvement", "+1 Culture for each adjacent different-type of Improvement",
