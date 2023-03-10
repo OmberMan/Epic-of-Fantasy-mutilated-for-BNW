@@ -99,7 +99,7 @@
 		"faith": 1,
 		"isNationalWonder": true,
 		"uniques": ["[+2 Culture, +1 Faith] from each Trade Route"],
-		"requiredTech": "Civil Service",
+		"requiredTech": "Philosophy",
 		"civilopediaText": [
 			{"text": "A tree sprout from the fallen body of the first Elven born. Ancestor Tree is a sacred site for the Elven Kingdom."},
         ]
