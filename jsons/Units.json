@@ -733,7 +733,7 @@
 	//Fanrong Republic
 	{
 		"name": "Junk Ship",
-		"uniqueTo": "The Wizard Council",
+		"uniqueTo": "Fanrong Republic",
 		"replaces": "Caravel",
 		"unitType": "Melee Water",
 		"movement": 4,
