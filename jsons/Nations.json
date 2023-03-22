@@ -253,8 +253,9 @@
 		"name": "Children of Deep Dweller",
 		"leaderName": "Orz'athoth",
 		"adjective": ["Cultist"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"startBias": ["Marsh"],
+		"preferredVictoryType": "Neutral",
+                "style": "Oceania",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -271,7 +272,7 @@
 		"outerColor": [0, 43, 11],
 		"innerColor": [0,242,189],
 		"uniqueName": "Darkest Salvation",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "Gain a free [Old God Monument] [in annexed cities]"], 
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "Gain a free [Old God Monument] [in annexed cities]", "[+1 Food, +2 Culture, +1 Production] from every [Marsh]", "[+26]% Strength <for [All] units> <when fighting in [Marsh] tiles>", "[+1 Faith] from [Mine] tiles [in holy cities]"], 
 		"cities": ["Zhall'ru","Eldhurst","Creeton","Khadram","Agranthin","Itlognig","Zaa-nag","Lihlelica","Nathosh","Sokrlithuact","Closarugn","Kitl-zothat",
 			"Iggtharacama","Mighanot","Yubotho","Athotuaq","C'darhothon"],
 		"civilopediaText": [
@@ -287,6 +288,8 @@
 		"leaderName": "Baradul",
 		"adjective": ["Dragonborn"],
 		"startBias": ["Mountain"],
+                "preferredVictoryType": "Domination",
+                "style": "Nordic",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -303,7 +306,7 @@
 		"outerColor": [242,101,0],
 		"innerColor": [89, 255,0],
 		"uniqueName": "Draconic Wisdom",
-		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State"], 
+		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State", "[+2 Science, +1 Culture] from every [Mountain]"], 
 		"cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One",
 				   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
 				   "Myrsys, the Stubborn","Jolbaim, the Chosen",
@@ -603,7 +606,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
 		"uniqueName": "Heresy Watch",
-		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[+34]% Natural religion spread [in all cities]", "[+34]% Spread Religion Strength"], 
+		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[+34]% Natural religion spread [in all cities]", "[+34]% Spread Religion Strength", "[+4 Faith] from every [Palace]"], 
 		"cities": ["Serenity","Sanctum","Endurance","Forsaken","Aepligura","Knowledge","Exalted","Estuary","Erukami","Avretalis","Garden","Nutrahara",
 			"Pious","Radiant","Reliquary","Cardinal","Solstice"],
 		"civilopediaText": [
@@ -1217,7 +1220,7 @@
 		"name": "Magnar Empire",
 		"leaderName": "Vaath II",
 		"adjective": ["Magnarian"],
-	//	"startBias": ["Grassland"],
+		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "The Great Emperor Vaath II of Magnar Empire! Ruthless but cunning, you lead your people with iron fist. Although your people suffer from your tyrannical rule, your empire succeded where others fall. You came and conquer one nation after another. Forced their citizen upon your uncontested rule, a cruel yet effective directive.",
@@ -1237,7 +1240,7 @@
 		"uniqueName": "Forced Levy",
 		"uniqueText": "May purchase strongest available Melee unit with population once per city\n+2 [Gold], +2 [Production] in annexed cities",
 		"uniques": ["[+2 Gold, +2 Production] [in annexed cities]",
-					"New [Wrecker Maceman] units start with [15] Experience [in all cities]"],
+					"New [Wrecker Maceman] units start with [15] Experience [in all cities]", "[+2 Production, -1 Culture, -1 Happiness] [in all cities]"],
 		"cities": ["Drogon","Taygete","Grimrock","Haruspex","Hatena","Kujata","Makantor","Moloki","Rizen","Thulu","Isenmaar",
 			"Knosph","Squelor","Atabury","Golonac","Ototh"],
 		"civilopediaText": [
