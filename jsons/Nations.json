@@ -306,7 +306,7 @@
 		"outerColor": [242,101,0],
 		"innerColor": [89, 255,0],
 		"uniqueName": "Draconic Wisdom",
-		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State", "[+2 Science, +1 Culture] from every [Mountain]"], 
+		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State", "[+2 Science, +1 Culture] from every [Mountain]", "[+1 Production] from every [Sheep]"], 
 		"cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One",
 				   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
 				   "Myrsys, the Stubborn","Jolbaim, the Chosen",
