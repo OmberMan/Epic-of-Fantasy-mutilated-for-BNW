@@ -823,33 +823,50 @@
 	//Mårg of The Titans
 	{
 		"name": "The Titans",
-		"leaderName": "Mårg",
-		"adjective": ["Titans"],
-		"preferredVictoryType": "Cultural",
+		"leaderName": "Tyrrhenus",
+		"adjective": ["Eturian"],
+                "startBias": ["Grassland"],
+		"preferredVictoryType": "Diplomatic",
+                "style": "Mediterranean",
 		
-		"startIntroPart1": ".",
+		"startIntroPart1": "balls",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".!",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Then out on the sky like a flash
+\nSending me high, high, high
+\nYou rescue me
+\nYou saved me from a certain tragedy",
+		"attacked": "When I'm out there all alone
+\nAnd feeling far from home
+\nI'm fading into blue
+\nAnd there's nothing I can do",
+		"defeated": "Do you read me? \nWe're breaking up \nIt's right in front of you \nListen, listen to the message from the stars",
+		"introduction": "Hello?
+\nListen!
+\nListen to the stars!
+\nIt's right in front of me",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "I get messages from the stars
+\nWhen you're making love to me
+\nI get messages from the stars
+\nYou must be from another galaxy",
+		"hateHello": "When I'm far out in the night \nAnd searching for a light \nThere's darkness all around \nAnd you're nowhere to be found",
+		"tradeRequest": "Hello
+\nDo you read me?
+\nI have a message
+\nA message from the stars",
 		
-		"outerColor": [77,145,129],
-		"innerColor": [15,247,193],
-		"uniqueName": "Byggare",
-		"uniqueText": "+33% [Production] when constructing World Wonder for the first time in a city\nMilitary land units are +15% stronger but more expensive to produce",
-		"uniques": ["[+33]% Production when constructing [World Wonder] wonders [in all cities]",
-					"[-33]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]",
-					"[+15]% Strength <for [{Military} {Land}] units>", 
-					"[Gold] cost of purchasing [{Military} {Land}] units [+43]%", 
-					"[Faith] cost of purchasing [{Military} {Land}] units [+43]%", 
-					"[-30]% Production when constructing [{Military} {Land}] units [in all cities]"],
-		"cities": ["Jättens Gångväg","Storafötter","Starkarm","Blodigthuvud","Skarpaögon","Stampa","Tungtben","Stålfjäder","Längtansplats","Förundrans","Undra",
+		"outerColor": [254,221,248],
+		"innerColor": [12,124,244],
+		"uniqueName": "League of Losers",
+		// "uniqueText": "+33% [Production] when constructing World Wonder for the first time in a city\nMilitary land units are +15% stronger but more expensive to produce",
+		"uniques": ["[+15]% Production when constructing [World Wonder] wonders [in all cities]",
+					"[-15]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]",
+					"[-35]% [Gold] [in all cities]", 
+					"[+35]% [Gold] [in capital]", "[+1 Gold, +1 Culture, +1 Production, +1 Science] [in all cities]", "[-60]% Unhappiness from [Population] [in all non-occupied cities]",
+					"[-1 Gold, -1 Culture, -1 Production, -1 Science] [in capital]", 
+					"[-15]% Production when constructing [{Military} {Land}] units [in all cities]", "[+1 Gold, +1 Culture] from each Trade Route <when not at war>"],
+		"cities": ["Velzna", "Tarchuna", "Jättens Gångväg","Storafötter","Starkarm","Blodigthuvud","Skarpaögon","Stampa","Tungtben","Stålfjäder","Längtansplats","Förundrans","Undra",
 			"Bergig","Höjd"],
 		"civilopediaText": [
 			{"text":"The Titans is a civilization consisted of giants. They are peaceful civilization. But don't be fooled, they are good at war and fighting because of their sheer size and lots of training in the Arena."},
