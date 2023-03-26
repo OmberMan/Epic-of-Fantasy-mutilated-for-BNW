@@ -11,8 +11,8 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Iron Working",
 		"promotions": ["Exposed Core"],
-		"uniques": ["Construct"],
-		"hurryCostModifier": 45,
+		"uniques": ["Construct", "No defensive terrain bonus"],
+		"hurryCostModifier": 55,
 		"attackSound": "throw",
 		"civilopediaText": [
 			{"text": "A construct made of Orichalcum. Its sturdiness exceeds that of a Diamond. This makes the golem a formidable foe in the battlefield."},
@@ -168,7 +168,7 @@
 		"cost": 48,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>", "Invisible to non-adjacent units", "[+33]% Strength <when fighting in [Marsh] tiles>", "[+20]% Strength <when fighting in [Friendly land] tiles>"],
+		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>", "Invisible to non-adjacent units", "[+33]% Strength <when fighting in [Marsh] tiles>", "[+20]% Strength <when fighting in [Friendly Land] tiles>"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Horror creature from the abysmal sea. Surfaced from the prayer and calling of the Cultist."},
@@ -546,7 +546,7 @@
 		"uniqueTo": "Centaur Tribes",
 		"replaces": "Horseman",
 		"unitType": "Sword",
-		"movement": 3,
+		"movement": 2,
 		"strength": 14,
 		"cost": 85,
 		"requiredTech": "Bronze Working",
@@ -695,7 +695,7 @@
 		"requiredResource": "Marble",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-                "uniques": ["[+1] Movement <in [Friendly land] tiles>", "[-20]% Strength <when attacking>", "[+40]% Strength <when defending>", "[+10]% Strength <when above [49] HP> <when defending> <vs [Ranged] units>", "[+10]% Strength <within [2] tiles of a [City center]", "[-20]% Strength <when below [50] HP>"],
+                "uniques": ["[+1] Movement <in [Friendly Land] tiles>", "[-20]% Strength <when attacking>", "[+40]% Strength <when defending>", "[+10]% Strength <when above [49] HP> <when defending> <vs [Ranged] units>", "[+10]% Strength <within [2] tiles of a [City center]", "[-20]% Strength <when below [50] HP>"],
 		"hurryCostModifier": 25,
 		"attackSound": "metalhit",
 		"civilopediaText": [
