@@ -99,7 +99,7 @@
 		"faith": 1,
 		"isNationalWonder": true,
 		"uniques": ["[+2 Culture, +1 Faith] from each Trade Route"],
-		"requiredTech": "Philosophy",
+		"requiredTech": "Construction",
 		"civilopediaText": [
 			{"text": "A tree sprout from the fallen body of the first Elven born. Ancestor Tree is a sacred site for the Elven Kingdom."},
         ]
@@ -479,7 +479,7 @@
 		"uniques": ["[+15]% growth [in all cities]", 
 					//"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Prosperity]> <in cities without a [Pillar of Faith]>", 
 					"Will not be displayed in Civilopedia"],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Construction"
 	},
 	{
 		"name": "Pillar of Faith",
@@ -491,7 +491,7 @@
 		"uniques": ["[+3 Culture] from [Mountain] tiles [in all cities]", 
 					//"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Prosperity]>", 
 					"Will not be displayed in Civilopedia"],
-		"requiredTech": "Theology"
+		"requiredTech": "Drama and Poetry"
 	},
 	{
 		"name": "Pillar of Prosperity",
@@ -503,7 +503,7 @@
 		"uniques": ["[+1 Gold] from every [Market]", "[+1 Gold] from every [Bank]", 
 					//"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Life]> <in cities without a [Pillar of Faith]>", 
 					"Will not be displayed in Civilopedia"],
-		"requiredTech": "Guilds"
+		"requiredTech": "Currency"
 	},
 	
 	//Gnome Alliance
@@ -669,10 +669,12 @@
 		"name": "Arena of Blood",
 		"uniqueTo": "The Titans",
 		"replaces": "Colosseum",
-		"maintenance": 1,
-		"happiness": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Shock I] promotion"],
+                "greatPersonPoints": {"Great Merchant": 1},
+		"maintenance": 0,
+		"happiness": 1,
+                "cost": 200,
+		"hurryCostModifier": 250,
+		"uniques": ["[-10]% Unhappiness from [Population] [in this city] <while the empire is happy> <when not at war>", "Unsellable", "[+1 Gold, +1 Culture, +1 Faith, +2 Happiness] [in this city] <during We Love The King Day>", "Gain [130]-[150] [Gold]", "Gain [40]-[80] [Culture]", "Can only be built [in all cities connected to capital]", "Destroyed when the city is captured", "Doubles Gold given to enemy if city is captured"],
 		"requiredTech": "Construction",
 		"civilopediaText": [
 			{"text": "The Titans has a tradition of fighting for entertainment. Even though it has 'Blood' in the name, the Arena of Blood outlaw the act of killing and incapacitating in the Arena."},
@@ -704,7 +706,7 @@
 		"science": 3,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Theology",
+		"requiredTech": "Mathematics",
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "Only available <in cities with a [Library]>", "Only available <in cities with a [Temple]>"],
 		"civilopediaText": [
 			{"text": "Place where magic scrolls and text are safe-guarded."},
@@ -855,7 +857,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"requiredTech": "Chivalry",
+		"requiredTech": "Mathematics",
 		"uniques": ["Destroyed when the city is captured", "[+1 Science] from [Tundra] tiles [in this city]"],
 		"civilopediaText": [
 			{"text": "Ancient fortress of the Nerubian. Contain a lot of lost knowledge of the past."},
