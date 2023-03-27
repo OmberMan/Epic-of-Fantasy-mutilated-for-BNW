@@ -702,8 +702,9 @@
 		"tradeRequest": "We've come to bargain Sir.",
 		
 		"outerColor": [218,165,32],
-		"innerColor": [0,0,205],
+		"innerColor": [15,0,205],
 		"uniqueName": "Pillars of Heaven",
+                "uniques": ["[+1 Faith, +1 Culture, +1 Food] from [Mountain] tiles [in all cities]", "[+2 Faith, +1 Culture] from [Mountain] tiles [in all cities]<with [0] to [0] neighboring [Mountain] tiles>", "[+1 Faith] from [Camp] tiles [in all cities]<when not at war>"],
 		"uniqueText": "Gain access to 4 unique National Wonders after researching Mathematics, Guilds, Writing, and Theology",
 		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
 			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
