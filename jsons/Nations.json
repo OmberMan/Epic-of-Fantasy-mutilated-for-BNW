@@ -153,6 +153,8 @@
 		"adjective": ["Merfolk"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
+                "style": "Mediterranean",
+                
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -220,6 +222,7 @@
 		"adjective": ["Elven"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
+                "style": "Germanic",
 		
 		"startIntroPart1": "Aia Sylvanna! The Queen of the Elven, protector of the sacred lands. ",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -357,6 +360,7 @@
 		"leaderName": "Menedaius",
 		"adjective": ["Argonauts"],
 		"preferredVictoryType": "Domination",
+                "style": "Mediterranean",
 		
 		"startIntroPart1": "Honorable warrior Menedaius, the leader of the Argonauts. Your reign unites all surrounding smaller states into one unified great nation. Under your rule, they prosper. Your Agoge mandate recruits young and strong descendant of the gods, a demigod, into a great warrior of your caliber, leading them into a path of glory in battle.",
 		"startIntroPart2": "O, Menedaius, your people call upon your name once more. Will you lead them to glory? Will you take Argonautian States into a leading force upon this world? Can you build a civilization that will stand the test of time?",
@@ -657,6 +661,7 @@
 		"adjective": ["Centaur"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
+                "style": "North American",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -688,6 +693,9 @@
 		"name": "Shinso",
 		"leaderName": "Takashi no Seimei",
 		"adjective": ["Shinso"],
+                "preferredVictoryType": "Neutral",
+                "style": "East Asian",
+                "favoredReligion": "Shinto",
 		
 		"startIntroPart1": "Most venerated, Takashi no Seimei of Shinso, you are a pioneer in the ways of Onmyou. Your peerless dedication on leading your people unto Prosperity has ushered a new age of unity. For long has your people divided each on their own idea of wealth. Now you've came, taking all of which this world has to offer.",
 		"startIntroPart2": "Takashi no Seimei, most astute of all Shinso, the keys to unlock Prosperity are within your grasp. Will you acquire it for the good of life? Will you stand tall and proud amongst those who seeks harm to Shinso? Can you build a civilization that will stand the test of time?",
@@ -866,8 +874,8 @@
 					"[-35]% [Gold] [in all cities]", 
 					"[+35]% [Gold] [in capital]", "[+1 Gold, +1 Culture, +1 Production, +1 Science] [in all cities]", "[-60]% Unhappiness from [Population] [in all non-occupied cities]",
 					"[-1 Gold, -1 Culture, -1 Production, -1 Science] [in capital]", 
-					"[-15]% Production when constructing [{Military} {Land}] units [in all cities]", "[+1 Gold, +1 Culture] from each Trade Route <when not at war>"],
-		"cities": ["Velzna", "Tarchuna", "Jättens Gångväg","Storafötter","Starkarm","Blodigthuvud","Skarpaögon","Stampa","Tungtben","Stålfjäder","Längtansplats","Förundrans","Undra",
+					"[-15]% Production when constructing [{Military} {Land}] units [in all cities]", "[+1 Gold, +1 Culture] from each Trade Route <when not at war>", "[+1 Gold, +1 Culture] from [Marble] tiles [in all city]"],
+		"cities": ["Velzna", "Tarchuna", "Volsinii","Caere","Populonia","Veii","Vulcii","Stampa","Piss and Shit","Stålfjädermeister","Längtansplats","Förundrans","Undra",
 			"Bergig","Höjd"],
 		"civilopediaText": [
 			{"text":"The Titans is a civilization consisted of giants. They are peaceful civilization. But don't be fooled, they are good at war and fighting because of their sheer size and lots of training in the Arena."},
