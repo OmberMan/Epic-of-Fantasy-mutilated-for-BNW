@@ -240,7 +240,7 @@
 		"innerColor": [ 70,  0, 4],
 		"uniqueName": "One with Nature",
 		"uniqueText": "Starts with Archery\n+1 [Culture] from every Forest tiles adjacent to Jungle tile\n+1 [Faith] from every Jungle tiles adjacent to Forest tile",
-		"uniques": ["[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+2 Faith] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>",
+		"uniques": ["[+2 Culture] from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+2 Faith] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>",
 				"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[+1 Culture] from [Forest] tiles [in capital]", "[-60]% growth [in all non-occupied cities]", "Starts with [Archery]"], 
 		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
@@ -298,13 +298,13 @@
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You have threathened the balance of this world, we shall remove you!",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"attacked": "What a drag",
+		"defeated": "AaAahhahahhrhd",
+		"introduction": "uwu rar",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "I fucking love sheep",
+		"hateHello": "You will be immolated by drag on fire",
+		"tradeRequest": "Dragon these nuts across your mouth",
 		
 		"outerColor": [242,101,0],
 		"innerColor": [89, 255,0],
