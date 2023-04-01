@@ -462,11 +462,11 @@
 		"uniqueTo": "Shinso",
 		"cost": 250,
 		"science": "4",
-		"specialistSlots": {"Scientist": 2},
+		"specialistSlots": {"Merchant": 1},
 		"isNationalWonder": true,
-		"uniques": ["[+2 Science] from each Trade Route", 
-					//"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Prosperity]> <in cities without a [Pillar of Faith]>", 
-					"Will not be displayed in Civilopedia"],
+		"uniques": ["[+1 Culture] from every specialist [in this city]", "[+25]% Great Person generation [in this city]", "Reveal up to [all] [All] within a [8] tile radius <upon constructing [Pillar of Learning]>",
+					"Can only be built [in all cities] <in cities without a [Pillar of Life]>", "Can only be built [in all cities] <in cities without a [Pillar of Prosperity]>", "Can only be built [in all cities] <in cities without a [Pillar of Faith]>"
+					],
 		"requiredTech": "Writing"
 	},
 	{
@@ -474,11 +474,11 @@
 		"uniqueTo": "Shinso",
 		"cost": 250,
 		"food": "4",
-		"specialistSlots": {"Engineer": 2},
+		"specialistSlots": {"Scientist": 1},
 		"isNationalWonder": true,
-		"uniques": ["[+15]% growth [in all cities]", 
-					//"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Prosperity]> <in cities without a [Pillar of Faith]>", 
-					"Will not be displayed in Civilopedia"],
+		"uniques": ["[+15]% growth [in this city]", 
+					"Can only be built [in all cities] <in cities without a [Pillar of Learning]>", "Can only be built [in all cities] <in cities without a [Pillar of Prosperity]>", "Can only be built [in all cities] <in cities without a [Pillar of Faith]>", 
+					"[Land] Units adjacent to this city heal [+25] HP per turn when healing"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -486,11 +486,10 @@
 		"uniqueTo": "Shinso",
 		"cost": 250,
 		"faith": "4",
-		"specialistSlots": {"Artist": 2},
+		"specialistSlots": {"Artist": 1},
 		"isNationalWonder": true,
-		"uniques": ["[+3 Culture] from [Mountain] tiles [in all cities]", 
-					//"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Prosperity]>", 
-					"Will not be displayed in Civilopedia"],
+		"uniques": ["[+1 Happiness, +1 Faith] from [Mountain] tiles [in this city]", "[+1 Faith] from [River] tiles [in this city]", "All newly-trained [Melee] units [in this city] receive the [Altitude Training] promotion",
+					"Can only be built [in all cities] <in cities without a [Pillar of Life]>", "Can only be built [in all cities] <in cities without a [Pillar of Prosperity]>", "Can only be built [in all cities] <in cities without a [Pillar of Learning]>"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -498,11 +497,10 @@
 		"uniqueTo": "Shinso",
 		"cost": 250,
 		"gold": "4",
-		"specialistSlots": {"Merchant": 2},
+		"specialistSlots": {"Engineer": 1},
 		"isNationalWonder": true,
-		"uniques": ["[+1 Gold] from every [Market]", "[+1 Gold] from every [Bank]", 
-					//"Only available <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Life]> <in cities without a [Pillar of Faith]>", 
-					"Will not be displayed in Civilopedia"],
+		"uniques": ["[+1 Happiness] from all [Gold] buildings <in cities with a [Pillar of Prosperity]>", "[+15]% Production when constructing [All] buildings [in this city]", 
+					"Can only be built [in all cities] <in cities without a [Pillar of Learning]>", "Can only be built [in all cities] <in cities without a [Pillar of Life]", "Can only be built [in all cities] <in cities without a [Pillar of Faith]>"],
 		"requiredTech": "Currency"
 	},
 	
@@ -674,7 +672,7 @@
 		"happiness": 1,
                 "cost": 200,
 		"hurryCostModifier": 250,
-		"uniques": ["[-10]% Unhappiness from [Population] [in this city] <while the empire is happy> <when not at war>", "Unsellable", "[+1 Gold, +1 Culture, +1 Faith, +2 Happiness] [in this city] <during We Love The King Day>", "Gain [130]-[150] [Gold]", "Gain [40]-[80] [Culture]", "Can only be built [in all cities connected to capital]", "Destroyed when the city is captured", "Doubles Gold given to enemy if city is captured"],
+		"uniques": ["[-5]% Unhappiness from [Population] [in this city] <while the empire is happy> <when not at war>", "Unsellable", "[+1 Gold, +1 Culture, +1 Faith, +2 Happiness] [in this city] <during We Love The King Day>", "Gain [130]-[150] [Gold]", "Gain [40]-[80] [Culture]", "Can only be built [in all cities connected to capital]", "Destroyed when the city is captured", "Doubles Gold given to enemy if city is captured"],
 		"requiredTech": "Construction",
 		"civilopediaText": [
 			{"text": "The Titans has a tradition of fighting for entertainment. Even though it has 'Blood' in the name, the Arena of Blood outlaw the act of killing and incapacitating in the Arena."},
@@ -887,13 +885,12 @@
 	{
 		"name": "Aspect of the Moon",
 		"uniqueTo": "Holy Lunar Theocracy",
-		"replaces": "Temple",
+		"replaces": "Shrine",
 		"faith": 2,
-		"requiredBuilding": "Shrine",
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+1 Faith, +1 Science] from every specialist [in this city]"],
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+1 Faith, +1 Science] from every specialist [in this city]", "[-50]% Unhappiness from [Specialists] [in this city]", "Reveal up to [15] [All] within a [5] tile radius <upon constructing [Aspect of the Moon]>"],
 		"civilopediaText": [
 			{"text": "Holy Lunar reveals to those who are deemed worthy."},
         ]
@@ -923,7 +920,7 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Free [Worker] appears"],
+		"uniques": ["Free [Worker] appears", "New [Melee] units start with [10] Experience [in this city]"],
 		"requiredTech": "Construction",
 		"civilopediaText": [
 			{"text": "The denizens of Magnar Empire have a tradition of dueling to settle dispute. And often, the losers will be sent into labor slavery."},
