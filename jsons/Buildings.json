@@ -464,7 +464,7 @@
 		"science": "4",
 		"specialistSlots": {"Merchant": 1},
 		"isNationalWonder": true,
-		"uniques": ["[+1 Culture] from every specialist [in this city]", "[+25]% Great Person generation [in this city]", "Reveal up to [all] [All] within a [8] tile radius <upon constructing [Pillar of Learning]>",
+		"uniques": ["[+1 Culture] from every specialist [in this city]", "[+25]% Great Person generation [in this city]", "Reveal up to [40] [All] within a [8] tile radius <upon constructing [Pillar of Learning]>",
 					"Can only be built [in all cities] <in cities without a [Pillar of Life]>", "Can only be built [in all cities] <in cities without a [Pillar of Prosperity]>", "Can only be built [in all cities] <in cities without a [Pillar of Faith]>"
 					],
 		"requiredTech": "Writing"
