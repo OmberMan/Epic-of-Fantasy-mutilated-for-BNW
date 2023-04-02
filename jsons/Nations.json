@@ -21,7 +21,7 @@
 		"tradeRequest": "I think it would be beneficial for both of us to conduct in a trade.",
 		
 		"outerColor": [ 27, 53, 63]
-		"innerColor": [255,249,213],
+		"innerColor": [250,242,203],
 		"uniqueName": "Higba's Ingenuity", 
 		"uniques": ["[+2 Gold, +1 Production, +1 Culture] from every [Mountain]", "[+1 Production] from every [Scientist]", "[-33]% XP gained from combat <for [All] units>",
 					"[+1 Production] from every [Mine] <in [Iron] tiles>",
@@ -298,17 +298,17 @@
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You have threathened the balance of this world, we shall remove you!",
-		"attacked": "What a drag",
-		"defeated": "AaAahhahahhrhd",
-		"introduction": "uwu rar",
+		"attacked": "What a drag...",
+		"defeated": "AaAahhahahhrhd NOO NO NO NO PLEAE!",
+		"introduction": "uwu, rar!",
 		
-		"neutralHello": "I fucking love sheep",
-		"hateHello": "You will be immolated by drag on fire",
+		"neutralHello": "I fucking love sheep \nI AM THE GOD OF HELLFIRE",
+		"hateHello": "IMAGINE DRAG ON THIS DICK IN YOUR MOUTH.",
 		"tradeRequest": "Dragon these nuts across your mouth",
 		
-		"outerColor": [242,101,0],
-		"innerColor": [89, 255,0],
-		"uniqueName": "Draconic Wisdom",
+		"outerColor": [237,91,11],
+		"innerColor": [89, 255,4],
+		"uniqueName": "Imagine Dragon these Nuts",
 		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State", "[+2 Science, +1 Culture] from every [Mountain]", "[+1 Production] from every [Sheep]"], 
 		"cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One",
 				   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
@@ -691,7 +691,7 @@
 	//Takashi no Seimei of Shinso
 	{
 		"name": "Shinso",
-		"leaderName": "Takashi no Seimei",
+		"leaderName": "Takashi no Seimei Ab",
 		"adjective": ["Shinso"],
                 "preferredVictoryType": "Neutral",
                 "style": "East Asian",
@@ -710,7 +710,7 @@
 		"tradeRequest": "We've come to bargain Sir.",
 		
 		"outerColor": [218,165,32],
-		"innerColor": [16lill,2,205],
+		"innerColor": [16,2,205],
 		"uniqueName": "Jojo's Bizzare Adventure: Eyes Of Heaven™",
                 "uniques": ["[+1 Faith, +1 Culture, +1 Food] from [Mountain] tiles [in all cities] <when not at war>", "[+2 Faith, +1 Culture] from [Mountain] tiles [in all cities]<with [0] to [0] neighboring [Mountain] tiles>", "[+1 Faith] from [Camp] tiles [in all cities]"],
 		"uniqueText": "Gain access to 4 unique National Wonders after researching Mathematics, Guilds, Writing, and Theology",
