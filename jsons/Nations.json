@@ -374,11 +374,11 @@
 		"hateHello": "What?",
 		"tradeRequest": "Our generous nation makes you this offer.",
 		
-		"outerColor": [0,136,230],
-		"innerColor": [255,255,255],
+		"outerColor": [6,134,234],
+		"innerColor": [251,255,255],
 		"uniqueName": "Heroic Tales",
-		"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free different unique Heroic General every era in capital",
-		"uniques": ["[Great General] is earned [-100]% faster"], 
+		//"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free different unique Heroic General every era in capital",
+		"uniques": ["[Great General] is earned [+100]% faster", "[+25]% XP gained from combat", "Military Units gifted from City-States start with [20] XP"], 
 		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
 			"Patraros","Olynthio","Andrai","Tathon","Nymphidon"],
 		"civilopediaText": [
@@ -675,8 +675,8 @@
 		"hateHello": "Bastard.",
 		"tradeRequest": "Throw in some spare horses with that.",
 		
-		"outerColor": [150,41,41],
-		"innerColor": [74,35,35],
+		"outerColor": [165,51,51],
+		"innerColor": [84,52,32],
 		"uniqueName": "Running with the herd",
 		"uniques": ["[+2] Movement <for [Land] units>", "[-2] Movement <for [Armor] units>", "[+100]% to Flank Attack bonuses <for [Land] units>", "[-100]% to Flank Attack bonuses <for [Armor] units>", "No defensive terrain bonus <for [Land] units>", "[-33]% Strength <vs [Spearman] units> <for [Sword] units>", "[-33]% Strength <vs [Spearman] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Spearman] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Spearman] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Pikeman] units> <for [Sword] units>", "[-33]% Strength <vs [Pikeman] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Pikeman] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Pikeman] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Formation I] units> <for [Sword] units>", "[-33]% Strength <vs [Formation I] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Formation I] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Formation I] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% growth [in all non-occupied cities]", "Cannot build [Mounted] units"], 
 		"cities": ["Konstan","Apios","Oretus","Stergeneus","Barbadia","Naesima","Depheis","Monolea","Kaselaia","Arganassa","Haiderine","Zeran",
@@ -710,9 +710,9 @@
 		"tradeRequest": "We've come to bargain Sir.",
 		
 		"outerColor": [218,165,32],
-		"innerColor": [15,0,205],
-		"uniqueName": "Pillars of Heaven",
-                "uniques": ["[+1 Faith, +1 Culture, +1 Food] from [Mountain] tiles [in all cities]", "[+2 Faith, +1 Culture] from [Mountain] tiles [in all cities]<with [0] to [0] neighboring [Mountain] tiles>", "[+1 Faith] from [Camp] tiles [in all cities]<when not at war>"],
+		"innerColor": [16lill,2,205],
+		"uniqueName": "Jojo's Bizzare Adventure: Eyes Of Heaven™",
+                "uniques": ["[+1 Faith, +1 Culture, +1 Food] from [Mountain] tiles [in all cities] <when not at war>", "[+2 Faith, +1 Culture] from [Mountain] tiles [in all cities]<with [0] to [0] neighboring [Mountain] tiles>", "[+1 Faith] from [Camp] tiles [in all cities]"],
 		"uniqueText": "Gain access to 4 unique National Wonders after researching Mathematics, Guilds, Writing, and Theology",
 		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
 			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
@@ -1211,9 +1211,10 @@
 	{
 		"name": "Holy Lunar Theocracy",
 		"leaderName": "Celeste",
-		"adjective": ["Lunari"],
+		"adjective": ["Lesbian"],
 		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Scientific",
+                "style": "Mediterranean",
 		
 		"startIntroPart1": "Celeste of Holy Lunar Theocracy, by the grace of the Moon, you've led your people through troubled times. By Her guide and Her messenger, you ruled the Theocracy with mercy while you conquer those who dared to defy with great vigor.",
 		"startIntroPart2": "O, Celeste, the Lunar has favored you, granted you power and cunningness for you to rule. Will you meet Her expectations? Will you build a nation upon Her mercy? Can you build a civilization that will stand the test of time?",
@@ -1227,12 +1228,12 @@
 		"hateHello": "Not now.",
 		"tradeRequest": "The Lunar has spoken to us that you will accept this bargain.",
 		
-		"outerColor": [113,12,201],
-		"innerColor": [182,186,224],
+		"outerColor": [113,6,201],
+		"innerColor": [182,186,234],
 		"uniqueName": "Lunar's Revelations",
 		"uniqueText": "Receive free Great Prophet when you complete Aspect of the Moon for the first time in Capital\nReceive free Great Scientist when you complete a World Wonder for the first time in Capital",
-	//	"uniques": ["Receive free [Settler] when you discover [Calendar]"],
-		"cities": ["Lunarius","Aeris","Xyranthius","Korolia","Mirias","Yolis","Valecia","Nightfall","Estest","Mellago","Albua",
+		"uniques": ["Receive free [Settler] when you discover [Calendar]", "Free Great Person <upon entering a Golden Age> <when not at war> <with [50]% chance>", "[-50]% XP gained from combat <with [50]% chance>", "[+100]% XP gained from combat <with [50]% chance>", "[-66]% Unhappiness from [Specialists] [in all non-occupied cities]"],
+		"cities": ["Lunarius", "Targon", "Men", "Ladytron", "Xyranthius","Korolia","Mirias","Yolis","Valecia","Nightfall","Estest","Mellago","Albua",
 			"Vrybergam","Rahvun","Rumul","Cygnus","Diana"],
 		"civilopediaText": [
 			{"text":"Holy Lunar Theocracy is a Lunari civilization, a nocturnal humanoid race, rival of the Sacred Sun Theocracy, often having dispute of their exact opposite believe and being a non-human civilization. Holy Lunar Theocracy often conquer other land by the Lunar's order."},
@@ -1261,7 +1262,7 @@
 		"hateHello": "Begone NOW!",
 		"tradeRequest": "You will accept this.",
 		
-		"outerColor": [54,158,94],
+		"outerColor": [49,158,89],
 		"innerColor": [0,0,0],
 		"uniqueName": "Forced Levy",
 		"uniqueText": "May purchase strongest available Melee unit with population once per city\n+2 [Gold], +2 [Production] in annexed cities",
