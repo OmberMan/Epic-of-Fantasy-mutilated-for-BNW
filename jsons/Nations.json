@@ -7,6 +7,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		"style": "Dwarven",
+                "favoredReligion": "Judaism",
 
 		"startIntroPart1": "Most majestic King Higba, the leader of the Dwarven Kingdom! Your nation has ushered onto new age owing to your reign. The mountainous land of Dwarven land surely will brings forth advances and breakthroughs.",
 		"startIntroPart2": "King Higba, your brilliant mind echoed throughout the lands. Will you stand unchallenged like a mountain? Will you reach the top and protect the Dwarven's land? Can you build a civilization that will stand the test of time?",
@@ -34,7 +35,7 @@
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Industrial era]>", "[+1 Production] in cities on [Hill] tiles <starting from the [Atomic era]>",
 
 					"[+30]% Strength for cities <in [Hill] tiles> <starting from the [Classical era]>", "[-1] Movement <for [Land] units> <in [Land] tiles>", "[+20]% Strength <when defending> <for [Land] units> <vs [Melee] units>", "[+20]% Strength <when defending> <for [Land] units> <when below [25] HP>", "[-40]% growth [in all non-occupied cities]"],
-		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
+		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Gregg's","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
 			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
 		"civilopediaText": [
 			{"text":"Dwarven Kingdom is a dwarf civilization. Led by its King, Higba, Dwarven Kingdom prospers. Dwarves are very skilled at mining and scientific progression."},
@@ -236,12 +237,12 @@
 		"hateHello": "Begone.",
 		"tradeRequest": "We have a proposition for you.",
 		
-		"outerColor": [255,255,78],
+		"outerColor": [252,254,71],
 		"innerColor": [ 70,  0, 4],
 		"uniqueName": "One with Nature",
 		"uniqueText": "Starts with Archery\n+1 [Culture] from every Forest tiles adjacent to Jungle tile\n+1 [Faith] from every Jungle tiles adjacent to Forest tile",
 		"uniques": ["[+2 Culture] from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+2 Faith] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>",
-				"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[+1 Culture] from [Forest] tiles [in capital]", "[-60]% growth [in all non-occupied cities]", "Starts with [Archery]"], 
+				"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[+1 Culture, +1 Faith] from [Forest] tiles [in capital]", "[-60]% growth [in all non-occupied cities]", "Starts with [Archery]"], 
 		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
 		"civilopediaText": [
@@ -255,10 +256,11 @@
 	{
 		"name": "Children of Deep Dweller",
 		"leaderName": "Orz'athoth",
-		"adjective": ["Cultist"],
+		"adjective": ["Muror"],
 		"startBias": ["Marsh"],
 		"preferredVictoryType": "Neutral",
                 "style": "Oceania",
+                favoredReligion": "Sikhism",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -272,7 +274,7 @@
 		"hateHello": "What?",
 		"tradeRequest": "It is time for a trade.",
 		
-		"outerColor": [0, 43, 11],
+		"outerColor": [3, 48, 16],
 		"innerColor": [0,242,189],
 		"uniqueName": "Darkest Salvation",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "Gain a free [Old God Monument] [in annexed cities]", "[+1 Food, +2 Culture, +1 Production] from every [Marsh]", "[+26]% Strength <for [All] units> <when fighting in [Marsh] tiles>", "[+1 Faith] from [Mine] tiles [in holy cities]"], 
@@ -288,7 +290,7 @@
 	//Baradul of Dragonborn Union
 	{
 		"name": "Dragonborn Union",
-		"leaderName": "Baradul",
+		"leaderName": "Daegon",
 		"adjective": ["Dragonborn"],
 		"startBias": ["Mountain"],
                 "preferredVictoryType": "Domination",
@@ -303,7 +305,7 @@
 		"introduction": "uwu, rar!",
 		
 		"neutralHello": "I fucking love sheep \nI AM THE GOD OF HELLFIRE",
-		"hateHello": "IMAGINE DRAG ON THIS DICK IN YOUR MOUTH.",
+		"hateHello": "IMAGINE DRAG ON THIS DICK THROUGH YOUR MOUTH.",
 		"tradeRequest": "Dragon these nuts across your mouth",
 		
 		"outerColor": [237,91,11],
@@ -594,6 +596,7 @@
 		"leaderName": "Lord Kemm",
 		"adjective": ["Templars"],
 		"preferredVictoryType": "Domination",
+                "favoredReligion": "Christianity",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
@@ -691,7 +694,7 @@
 	//Takashi no Seimei of Shinso
 	{
 		"name": "Shinso",
-		"leaderName": "Takashi no Seimei Ab",
+		"leaderName": "Takashi no Seimei Abe",
 		"adjective": ["Shinso"],
                 "preferredVictoryType": "Neutral",
                 "style": "East Asian",
@@ -865,7 +868,7 @@
 \nI have a message
 \nA message from the stars",
 		
-		"outerColor": [254,221,248],
+		"outerColor": [252,221,248],
 		"innerColor": [12,124,244],
 		"uniqueName": "League of Losers",
 		// "uniqueText": "+33% [Production] when constructing World Wonder for the first time in a city\nMilitary land units are +15% stronger but more expensive to produce",
@@ -874,7 +877,7 @@
 					"[-35]% [Gold] [in all cities]", 
 					"[+35]% [Gold] [in capital]", "[+1 Gold, +1 Culture, +1 Production, +1 Science] [in all cities]", "[-60]% Unhappiness from [Population] [in all non-occupied cities]",
 					"[-1 Gold, -1 Culture, -1 Production, -1 Science] [in capital]", 
-					"[-15]% Production when constructing [{Military} {Land}] units [in all cities]", "[+1 Gold, +1 Culture] from each Trade Route <when not at war>", "[+1 Gold, +1 Culture] from [Marble] tiles [in all city]"],
+					"[-15]% Production when constructing [{Military} {Land}] units [in all cities]", "[+1 Gold, +1 Culture] from each Trade Route <when not at war>", "[+1 Gold, +1 Culture] from [Marble] tiles [in all cities]"],
 		"cities": ["Velzna", "Tarchuna", "Volsinii","Caere","Populonia","Veii","Vulcii","Stampa","Piss and Shit","Stålfjädermeister","Längtansplats","Förundrans","Undra",
 			"Bergig","Höjd"],
 		"civilopediaText": [
@@ -929,32 +932,33 @@
 	//Zhu Xi of Fanrong Republic
 	{
 		"name": "Fanrong Republic",
-		"leaderName": "Zhu Xi",
-		"adjective": ["The Fanrongs"],
+		"leaderName": "Zheng He",
+		"adjective": ["Tiyanisu"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Diplomatic",
+                "style": "East Asian",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".!",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Yeah. Look, about us mate, I am grateful right? And uh... Well, I'd really like to show my appreciation. You know, proper, like a man should. \nI'll take you bloody, if you like. I like my meat rare.",
+		"attacked": "This is some fucked up foreplay, huh?",
+		"defeated": "Right then. I'll sod off then, shall I? Keep safe. (*Fucking Dies*) -BLEUehghh...",
+		"introduction": "Well, it's not my birthday, so you must be Duānwu Jie.",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": "This aggrement will most definitely benefits both of us.",
+		"neutralHello": "What? No hello? Aw, that's too bad. History time?",
+		"hateHello": "I should cane you for thid. I really should. But you know what? I won't.",
+		"tradeRequest": "We're not all savages here. We're just businessmen. Responsible capitalists. I've got something that, that you want, right? That's a product. You've got something that I want...",
 		
-		"outerColor": [240,200,0],
-		"innerColor": [0,0,0],
-		"uniqueName": "Abundance of Wealth",
+		"outerColor": [240,192,20],
+		"innerColor": [184,31,176],
+		"uniqueName": "Escape from the Chin a",
 		"uniqueText": "+1 [Gold] from Coast\n+1 [Culture] from Lighthouse, Harbor, and Seaport",
-		"uniques": ["[+1 Gold] from every [Coast]",
+		"uniques": ["[+1 Gold] from every [Coast]", "[-50]% Unhappiness from [Specialists] [in all coastal cities]", "Gifts of Gold to City-States generate [33]% more Influence", "Allied City-States provide [Gold] equal to [33]% of what they produce for themselves", "Retain [25]% of the happiness from a luxury after the last copy has been traded away", "Free Great Person <upon founding a city> <on foreign continents>",
 					"[+1 Culture] from every [Lighthouse]",
 					"[+1 Culture] from every [Harbor]",
 					"[+1 Culture] from every [Seaport]"],
-		"cities": ["Gwangjing","Fushu","Zhongging","Dong Zhe","Ba Chuan","Lauzhun","Dongguang","Chang Shi","Xinzhong","Huideguang","Jan Hai",
+		"cities": ["Gwangjing","Fushu","Feitan", "Zhongging","Dong Zhe","Faxian", "Ba Chuan","Lauzhun","Dongguang","Chang Shi","Xinzhong","Wuyue", "Huideguang","Jan Hai",
 			"Shijiang","Yunshan"],
 		"civilopediaText": [
 			{"text":"Fanrong Republic is a human nation. They are prosperous mercantile nation and is the center of trades."},
@@ -1071,29 +1075,30 @@
 	//Anub'arak of Nerubian Kingdom
 	{
 		"name": "Nerubian Kingdom",
-		"leaderName": "Anub'arak",
-		"adjective": ["Nerubian"],
-		"startBias": ["Tundra"],
+		"leaderName": "Piye",
+		"adjective": ["Nubian"],
+		"startBias": ["Flood plains"],
 		"preferredVictoryType": "Domination",
+                "style": "African",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Fucking bitch, yeah get his ass! Fucking pussy! TRY THE FUCK AGAIN BITCH! TRY THE FUCK AGAAAIINN!",
+		"attacked": "Fucking bitch- yeah get his ass! Fucking pussy! TRY THE FUCK AGAIN BITCH! TRY THE FUCK AGAAAIINN!",
+		"defeated": "EgAds!",
+		"introduction": "We have been known on occasion to have been Kangs and so on and so forth.",
 		
-		"neutralHello": ".",
-		"hateHello": "What now?.",
-		"tradeRequest": "This will certainly lived up to your expectation.",
+		"neutralHello": "We have been known on occasion to have been Kangs and such.",
+		"hateHello": "What now?",
+		"tradeRequest": "This will certainly live up to your expectations.",
 		
-		"outerColor": [213,249,255],
+		"outerColor": [244,227,43],
 		"innerColor": [139,96,230],
-		"uniqueName": "Azjol-Nerub",
-		"uniques": ["[+25]% Production when constructing [Ranged] units [in all cities]",
-					"[+10]% Strength <for [Ranged] units>"],
-		"cities": ["Krezon","Za'as","Greltusab","Hertuzet","Kril'thek","Nenilrir","Krilthon","Trik'thok","Yishishral","Sakh'il","Kumos",
+		"uniqueName": "Boom. Headshot.",
+		"uniques": ["[+25]% Production when constructing [Ranged] units [in all cities with a garrison]", "Empire enters a [5] Golden Age <upon conquering a city> <with [50]% chance>",
+					"[+15]% Strength <for [Archery] units> <when attacking> <vs cities>"],
+		"cities": ["Napata", "Kerma", "Meroé", "Krezon","Za'as","Greltusab","Hertuzet","Kril'thek","Nenilrir","Krilthon","Trik'thok","Yishishral","Sakh'il","Kumos",
 			"Hunot","Susthelas"],
 		"civilopediaText": [
 			{"text":"Nerubian is a human-arachnid species from the Warcraft lore. They are ancient species that live in the arctic."},
@@ -1262,7 +1267,7 @@
 		"hateHello": "Begone NOW!",
 		"tradeRequest": "You will accept this.",
 		
-		"outerColor": [49,158,89],
+		"outerColor": [43,158,84],
 		"innerColor": [0,0,0],
 		"uniqueName": "Forced Levy",
 		"uniqueText": "May purchase strongest available Melee unit with population once per city\n+2 [Gold], +2 [Production] in annexed cities",
