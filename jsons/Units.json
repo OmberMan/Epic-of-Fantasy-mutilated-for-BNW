@@ -166,7 +166,7 @@
 		"movement": 2,
 		"strength": 7,
 		"cost": 48,
-		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>", "Invisible to non-adjacent units", "[+33]% Strength <when fighting in [Marsh] tiles>", "[+10]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>", "Invisible to non-adjacent units", "[+50]% Strength <when fighting in [Marsh] tiles>", "[+15]% Strength <when fighting in [Friendly Land] tiles>", "May withdraw before melee ([33]%)"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Horror creature from the abysmal sea. Surfaced from the prayer and calling of the Cultist."},
@@ -183,7 +183,7 @@
 		"strength": 24,
 		"cost": 350,
                 "hurryCostModifier": 100,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Mining",
 		"uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "May Paradrop up to [7] tiles from inside friendly territory", "[-15]% Strength for enemy [All] units in adjacent [All] tiles", "May withdraw before melee ([75]%)", "Destroys tile improvements when attacking", "[+50]% Strength <when attacking>", "Eliminates combat penalty for attacking across a coast", "[+1] Sight", "[-15] HP when healing", "No defensive terrain bonus", "Can move after attacking", "Unable to capture cities", "No defensive terrain penalty", "Normal vision when embarked", "[+500]% maintenance costs"],
 		"attackSound": "nuke",
 		"civilopediaText": [
@@ -203,7 +203,7 @@
 		"requiredTech": "Trapping",
 		"uniques": ["[-10] HP when healing","[+400]% maintenance costs"],
 		"hurryCostModifier": 50,
-		"attackSound": "artillery",
+		"attackSound": "horse",
 		"civilopediaText": [
 			{"text": "A hybrid monster of Eagle and Lion, tamed and trained to be a valuable assets on the battlefield."},
         ]
@@ -238,8 +238,8 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"promotions": ["Agoge"],
-		"attackSound": "metalhit",
+		"promotions": ["Cover I"],
+		"attackSound": "throw",
 		"civilopediaText": [
 			{"text": "Trained since children, with the States' Agoge policy, Peltast is the main infantry for Argonautian States."},
         ]
@@ -257,7 +257,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
-		"promotions": ["Agoge", "Impetus"],
+		"promotions": ["Formation I", "Impetus"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse",
 		"civilopediaText": [
@@ -313,7 +313,7 @@
 						"Can speed up construction of a building", "Can construct [Basilikoi Paides]"],
 			"promotions": ["Quick Study", "Heroic General",
 					   "Warbanner"],
-			"attackSound": "throw"
+			"attackSound": "tankshot"
 		},
 		{
 			"name": "Theopompus",
@@ -418,7 +418,7 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"uniques": ["Research Theology vs Machinery","May capture killed [Military] units <with [75]% chance>"],
-		"attackSound": "arrow",
+		"attackSound": "gdrattack",
 		"civilopediaText": [
 			{"text": "A high-ranking undead, an undead of great intelligence, master of necromancy, a Lich will ressurect its killed enemies to serve them."},
         ]
@@ -692,9 +692,9 @@
 		"requiredResource": "Marble",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-                "uniques": ["[+1] Movement <in [Friendly Land] tiles>", "[-20]% Strength <when attacking>", "[+40]% Strength <when defending>", "[+10]% Strength <when above [49] HP> <when defending> <vs [Ranged] units>", "[+10]% Strength <within [2] tiles of a [City center]", "[-20]% Strength <when below [50] HP>"],
+                "uniques": ["[+1] Movement <in [Friendly Land] tiles>", "[-20]% Strength <when attacking>", "[+40]% Strength <when defending>", "[+20]% Strength <when above [49] HP> <when defending> <vs [Ranged] units>", "[+10]% Strength <within [2] tiles of a [City center]", "[-10]% Strength <when below [50] HP>"],
 		"hurryCostModifier": 25,
-		"attackSound": "metalhit",
+		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "A giant so big that you can only see their legs. Or at least what is told across the lands."},
         ]
@@ -725,18 +725,18 @@
 	{
 		"name": "Junk Ship",
 		"uniqueTo": "Fanrong Republic",
-		"replaces": "Caravel",
+		"replaces": "Trireme",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 20,
-		"cost": 90,
-		"requiredTech": "Astronomy",
+		"strength": 10,
+		"cost": 65,
+		"requiredTech": "Sailing",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
-		"hurryCostModifier": 30,
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence"],
+		"hurryCostModifier": 75,
 		"attackSound": "cannon"
-		"promotions": ["Boarding Party I"],
+		"promotions": ["Supply", "Sentry"],
 		"civilopediaText": [
 			{"text": "A type of Chinese sailing ship with fully battened sails. Famous for their easy to produce frame."},
         ]
@@ -842,18 +842,19 @@
 		"name": "Nerubian Weaver",
 		"unitType": "Archery",
 		"uniqueTo": "Nerubian Kingdom",
-		"replaces": "Archer",
+		"replaces": "Composite Bowman",
 		"movement": 2,
-		"strength": 8,
-		"rangedStrength": 8,
-		"cost": 48,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
-		"promotions": ["Accuracy I","Barrage I"],
-		"upgradesTo": "Composite Bowman",
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"promotions": ["Accuracy I","Accuracy II"],
+                "uniqued": ["[+33]% Strength <vs cities> <when attacking>", "Double movement in [River]"],
+		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow",
 		"civilopediaText": [
-			{"text": "Elite unit of the Nerubian Kingdom, the Weaver is a web-spewing giant arachnid that easily disarm its foes."},
+			{"text": "Elite unit of the Nerubian Kingdom, the Weaver is a web-spewing giant bow boi that easily disarm its foes."},
         ]
 	},
 	
@@ -906,9 +907,9 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
-		"cost": 56,
+		"cost": 67,
 		"requiredTech": "Bronze Working",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can see invisible [Land] units"],
 		"promotions": ["Elusive", "Conqueror of Realm", "Divine Watch"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
@@ -932,8 +933,8 @@
 		"uniques": ["Starts with 15 experience", "[+25]% Strength <with [25]% chance> <when attacking>"],
 		"promotions": ["Besiege"],
 		"requiredResource": "Iron",
-		"hurryCostModifier": 25,
-		"attackSound": "nonmetalhit"
+		"hurryCostModifier": 15,
+		"attackSound": "throw"
 		"civilopediaText": [
 			{"text": "They swing mace harder than a rock swung by catapult. Yes, it's an exaggeration, but they could certainly level a building with ease."},
         ]
