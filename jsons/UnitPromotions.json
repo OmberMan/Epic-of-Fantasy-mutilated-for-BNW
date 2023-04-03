@@ -785,11 +785,11 @@
 	//Dwarven Kingdom~~~~~~~
 	{
 		"name": "Construct",
-		"uniques": ["[+20]% Strength <when defending> <when above [40] HP>", "[+20]% Strength <when defending> <vs [Archer] units> <when above [40] HP>", "Unable to capture cities", "No Sight", "Uncapturable", "Damage is ignored when determining unit Strength", "[2] HP when healing", "All healing effects doubled <in [City center] tiles>"]
+		"uniques": ["[+20]% Strength <when defending> <when above [40] HP>", "[+20]% Strength <when defending> <vs [Ranged] units> <when above [40] HP>", "Unable to capture cities", "No Sight", "Uncapturable", "Damage is ignored when determining unit Strength", "[-4] HP when healing", "All healing effects doubled <in [City center] tiles>"]
 	},
 	{
 		"name": "Exposed Core",
-		"uniques": ["[+40]% Strength <when attacking> <when below [40] HP>"]
+		"uniques": ["[+40]% Strength <when attacking> <when below [40] HP>", "[-20]% Strength <when defending> <when below [40] HP>"]
 	},
 	
 	//Drow Village~~~~~~~
@@ -834,7 +834,7 @@
 	},
 	{
 		"name": "Heroic General",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"]
+		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles"]
 	},
 	{
 		"name": "Impetus",
