@@ -98,7 +98,7 @@
 		"culture": 2,
 		"faith": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+2 Culture, +1 Faith] from each Trade Route"],
+		"uniques": ["[+2 Faith, +1 Science] from each Trade Route"],
 		"requiredTech": "Construction",
 		"civilopediaText": [
 			{"text": "A tree sprout from the fallen body of the first Elven born. Ancestor Tree is a sacred site for the Elven Kingdom."},
@@ -389,7 +389,7 @@
 	},
 	{
 		"name": "Dryad's Hut",
-		"uniqueTo": "Nature's Keeper",
+		"uniqueTo": "Elven Kingdom",
 		"replaces": "Garden",
                 "cost": 100,
                 "food": 1,
@@ -692,7 +692,7 @@
 		"gold": 3,
                 "percentStatBonus": {"gold": 15},
 		"culture": 1,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchant": 2},
 		"uniques": ["Cost increases by [20] per owned city", "Provides [1] [Porcelain]"],
 		"requiredTech": "Currency",
 		"civilopediaText": [
@@ -853,14 +853,14 @@
 	{
 		"name": "Ziggurat Fortress",
 		"uniqueTo": "Nerubian Kingdom",
-		"replaces": "Castle",
-		"cost": 120,
-		"cityStrength": 7,
-		"cityHealth": 25,
+		"replaces": "Temple",
+		"cost": 115,
+		"faith": 2,
+                "food": 1,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Walls",
-		"requiredTech": "Mathematics",
-		"uniques": ["Destroyed when the city is captured", "[+1 Science] from [Tundra] tiles [in this city]"],
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy",
+		"uniques": ["Destroyed when the city is captured", "[+1 Production] from [Desert] tiles [in this city]"],
 		"civilopediaText": [
 			{"text": "Ancient fortress of the Nerubian. Contain a lot of lost knowledge of the past."},
         ]
