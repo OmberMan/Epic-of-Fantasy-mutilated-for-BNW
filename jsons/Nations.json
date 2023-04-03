@@ -260,7 +260,7 @@
 		"startBias": ["Marsh"],
 		"preferredVictoryType": "Neutral",
                 "style": "Oceania",
-                favoredReligion": "Sikhism",
+                "favoredReligion": "Sikhism",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
