@@ -311,8 +311,8 @@
                 //64,2,47
                 //245,2,4
 
-		"outerColor": [237,91,11],
-		"innerColor": [239,204,6],
+		"outerColor": [64,3,47],
+		"innerColor": [239,174,6],
 		"uniqueName": "Imagine Dragon these Nuts",
 		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State", "[+2 Science, +1 Culture] from every [Mountain]", "[+1 Production] from every [Sheep]"], 
 		"cities": ["Oros","Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One",
@@ -1096,7 +1096,7 @@
 		"hateHello": "What now?",
 		"tradeRequest": "This will certainly live up to your expectations.",
 		
-		"outerColor": [244,227,43],
+		"outerColor": [249,235,58],
 		"innerColor": [139,96,230],
 		"uniqueName": "Boom. Headshot.",
 		"uniques": ["[+25]% Production when constructing [Ranged] units [in all cities with a garrison]", "Empire enters a [5] Golden Age <upon conquering a city> <with [50]% chance>",
