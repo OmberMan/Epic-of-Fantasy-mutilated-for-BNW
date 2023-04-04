@@ -107,7 +107,7 @@
 	{
 		"name": "Dragon House",
 		"uniqueTo": "Dragonborn Union",
-		"name": "Courthouse",
+		"replaces": "Courthouse",
 		"maintenance": 2,
 		"hurryCostModifier": 20,
 		"uniques": ["Remove extra unhappiness from annexed cities",
