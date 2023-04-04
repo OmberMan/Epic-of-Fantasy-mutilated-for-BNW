@@ -308,11 +308,14 @@
 		"hateHello": "IMAGINE DRAG ON THIS DICK THROUGH YOUR MOUTH.",
 		"tradeRequest": "Dragon these nuts across your mouth",
 		
+                //64,2,47
+                //245,2,4
+
 		"outerColor": [237,91,11],
-		"innerColor": [89, 255,4],
+		"innerColor": [239,204,6],
 		"uniqueName": "Imagine Dragon these Nuts",
 		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State", "[+2 Science, +1 Culture] from every [Mountain]", "[+1 Production] from every [Sheep]"], 
-		"cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One",
+		"cities": ["Oros","Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One",
 				   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
 				   "Myrsys, the Stubborn","Jolbaim, the Chosen",
 				   "Jaigerynth, the Skinny One","Dondrentarth, the Mysterious","Nudroilth, Eternal Fire",
@@ -1234,7 +1237,7 @@
 		"tradeRequest": "The Lunar has spoken to us that you will accept this bargain.",
 		
 		"outerColor": [113,6,201],
-		"innerColor": [182,186,234],
+		"innerColor": [187,191,245],
 		"uniqueName": "Lunar's Revelations",
 		"uniqueText": "Receive free Great Prophet when you complete Aspect of the Moon for the first time in Capital\nReceive free Great Scientist when you complete a World Wonder for the first time in Capital",
 		"uniques": ["Receive free [Settler] when you discover [Calendar]", "Free Great Person <upon entering a Golden Age> <when not at war> <with [50]% chance>", "[-50]% XP gained from combat <with [50]% chance>", "[+100]% XP gained from combat <with [50]% chance>", "[-66]% Unhappiness from [Specialists] [in all non-occupied cities]"],
