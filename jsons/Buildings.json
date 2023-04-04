@@ -104,6 +104,19 @@
 			{"text": "A tree sprout from the fallen body of the first Elven born. Ancestor Tree is a sacred site for the Elven Kingdom."},
         ]
 	},
+	{
+		"name": "Dragon House",
+		"uniqueTo": "Dragonborn Union",
+		"name": "Courthouse",
+		"maintenance": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]", "[-3] population [in this city]", "[+1] population in a random city", "[+1 Production] [in all cities connected to capital]"],
+		"requiredTech": "Mathematics",
+                "civilopediaText": [
+			{"text": "Monument for the Old Sods. An altar of whoreship."},
+        ]
+	},
 	
 	//Orz'athoth of Children of Deep Dweller
 	{
