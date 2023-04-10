@@ -86,6 +86,7 @@
 		"adjective": ["Orc"],
 		"preferredVictoryType": "Domination",
                 "style": "Orcish",
+                "favoredReligion": "Christianity",
 		
 		"startIntroPart1": "Rog the Destroyer, your sheer strength, size, and power has lifted you to your throne. Respected and feared among the Orcs, you wage one war after another to your heeart desire. Violence and destruction follows your lead. None you gave mercy. Thousands you killed.",
 		"startIntroPart2": "O, mighty Destroyer, your people follows you to your victories. Will you plow through your opponent? Will you destroy those who dare to oppose? Can you ruin civilizations until the end of time?",
@@ -99,8 +100,8 @@
 		"hateHello": "Hghh...",
 		"tradeRequest": "Letz banter, ey? I give you good stuff, you give us good stuff, deal?",
 		
-		"outerColor": [ 41,83,42],
-		"innerColor": [146,221,9],
+		"outerColor": [ 36,83,37],
+		"innerColor": [146,226,9],
 		"uniqueName": "Endless Horde",
 	//	"uniqueText": "+20% Production when constructing Military Land units in all cities\n+20% Flank attack bonuses",
 		"uniques": ["[+25]% Production when constructing [{Melee} {Land}] units [in all cities]", "[+15]% Strength <for [{Melee} {Land}] units>", "[-20]% [Science] [in all cities]", "[-15]% growth [in all non-occupied cities]", "[-25]% XP gained from combat <for [All] units>",
@@ -241,7 +242,7 @@
 		"innerColor": [ 70,  0, 4],
 		"uniqueName": "One with Nature",
 		"uniqueText": "Starts with Archery\n+1 [Culture] from every Forest tiles adjacent to Jungle tile\n+1 [Faith] from every Jungle tiles adjacent to Forest tile",
-		"uniques": ["[+50]% Yield from every [Forest]" <with [1] to [6] neighboring [Jungle] tiles>", "[+2 Faith, +1 Science] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>", "[+1] Happiness from each type of luxury resource", "Unhappiness from number of Cities doubled", "[+100]% Yield from every [Natural Wonder]", "[+1 Science, +1 Production] in cities on [River] tiles",
+		"uniques": ["[+66]% Yield from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+2 Faith, +1 Science] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>", "[+1] Happiness from each type of luxury resource", "Unhappiness from number of Cities doubled", "[+100]% Yield from every [Natural Wonder]", "[+1 Science, +1 Production] in cities on [River] tiles",
 				"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[+1 Culture, +1 Faith] from [Forest] tiles [in capital]", "[-60]% growth [in all non-occupied cities]", "Starts with [Archery]"], 
 		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
@@ -302,7 +303,7 @@
 		"declaringWar": "You have threathened the balance of this world, we shall remove you!",
 		"attacked": "What a drag...",
 		"defeated": "AaAahhahahhrhd NOO NO NO NO PLEAE!",
-		"introduction": "uwu, rar!",
+		"introduction": "uwu rar",
 		
 		"neutralHello": "I fucking love sheep \nI AM THE GOD OF HELLFIRE",
 		"hateHello": "IMAGINE DRAG ON THIS DICK THROUGH YOUR MOUTH.",
@@ -311,7 +312,7 @@
                 //64,2,47
                 //245,2,4
 
-		"outerColor": [64,3,47],
+		"outerColor": [84,3,17],
 		"innerColor": [239,174,6],
 		"uniqueName": "Imagine Dragon these Nuts",
 		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State", "[+2 Science, +1 Culture] from every [Mountain]", "[+1 Production] from every [Sheep]"], 
