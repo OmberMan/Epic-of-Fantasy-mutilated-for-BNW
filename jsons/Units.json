@@ -834,27 +834,6 @@
 			{"text": "Wield Totem as its weapon, this Tauren can both hurt enemies and heal allies with their Totem prayer."},
         ]
 	},
-	
-	//Nerubian Kingdom
-	{
-		"name": "Nerubian Weaver",
-		"unitType": "Archery",
-		"uniqueTo": "Songhai",
-		"replaces": "Composite Bowman",
-		"movement": 2,
-		"strength": 8,
-		"rangedStrength": 10,
-		"cost": 70,
-		"requiredTech": "Construction",
-		"promotions": ["Medic I"],
-                "uniqued": ["Can move after attacking"],
-		"upgradesTo": "Crossbowman",
-		"attackSound": "crossbow",
-		"civilopediaText": [
-			{"text": "Fill in Sofa unit of Songhai, the Weaver is a web-spewing giant bow boi that easily disarm its foes."},
-        ]
-	},
-	
 	//The Walrus People
 	{
 		"name": "Tuskarr",
