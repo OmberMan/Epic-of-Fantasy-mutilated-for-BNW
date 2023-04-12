@@ -586,7 +586,7 @@
 		"strength": 13,
 		"cost": 75,
 		"requiredTech": "Pottery",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-50]% Strength <vs cities> <when attacking>", "[-15]% Strength for enemy [Land] units in adjacent [Rough terrain] tiles", "Unable to capture cities", "All tiles cost 1 movement", "Ignores Zone of Control", "No defensive terrain penalty", "Damage is ignored when determining unit Strength", "Can only heal by pillaging", "Can see over obstacles", "[+50]% Strength <when attacking> <with [50]% chance>", "[-50]% Strength <when defending> <with [50]% chance>", "Unbuildable", "Earn [10]% of the damage done to [All] units as [Faith]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-50]% Strength <vs cities> <when attacking>", "[-15]% Strength for enemy [Land] units in adjacent [Rough terrain] tiles", "Unable to capture cities", "All tiles cost 1 movement", "Ignores Zone of Control", "No defensive terrain penalty", "Damage is ignored when determining unit Strength", "May enter foreign tiles without open borders", "[2] HP when healing", "Cannot enter ocean tiles", "Can see over obstacles", "[+50]% Strength <when attacking> <with [50]% chance>", "[-50]% Strength <when defending> <with [50]% chance>", "Unbuildable", "Earn [14]% of the damage done to [All] units as [Faith]"],
 		"promotions": ["Mobility I", "Strengths"],
 		"hurryCostModifier": 0,
 		"attackSound": "gdrattack",
