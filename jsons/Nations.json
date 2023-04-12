@@ -719,9 +719,9 @@
 		"outerColor": [218,165,32],
 		"innerColor": [16,2,205],
 		"uniqueName": "Jojo's Bizzare Adventure: Eyes Of Heaven™",
-                "uniques": ["[+1 Faith, +1 Culture, +1 Food] from [Mountain] tiles [in all cities] <when not at war>", "[+2 Faith, +1 Culture] from [Mountain] tiles [in all cities]<with [0] to [0] neighboring [Mountain] tiles>", "[+1 Faith] from [Camp] tiles [in all cities]"],
+                "uniques": ["[+1 Faith, +1 Culture, +1 Food] from [Mountain] tiles [in all cities] <when not at war>", "[+2 Faith, +1 Culture] from [Mountain] tiles [in all cities]<with [0] to [0] neighboring [Mountain] tiles>", "[+1 Faith] from [Camp] tiles [in all cities]", "Free [Tsukaima] appears <upon constructing [Shrine]> <with [40]% chance>"],
 		//"uniqueText": "Gain access to 4 unique National Wonders after researching Mathematics, Guilds, Writing, and Theology",
-		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
+		"cities": ["Hakensei","Yosugaichi","Nakahama","Kissakichi","Kinkasaki","Hakutaichi","Mizutora","Nagisaichi","Yamazaka","Tobarichi","Kyoshi","Kotobukichi","Kuroganichi","Nagakura","Touhama","Fujihidaka","Kumamoto","Emishichi","Shingawa",
 			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
 		"civilopediaText": [
 			{"text":"Shinso is a human civilization resembling that of Onmyouji faith and culture from the Japanese."},
