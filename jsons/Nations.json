@@ -104,7 +104,7 @@
 		"innerColor": [146,226,9],
 		"uniqueName": "Endless Horde",
 	//	"uniqueText": "+20% Production when constructing Military Land units in all cities\n+20% Flank attack bonuses",
-		"uniques": ["[+33]% Production when constructing [{Melee} {Land}] units [in all nom-occupied cities]", "[+20]% Strength <for [{Melee} {Land}] units>", "[-20]% [Science] [in all cities]", "[-10]% growth [in all non-occupied cities]", "[-25]% XP gained from combat <for [All] units>",
+		"uniques": ["[+33]% Production when constructing [{Melee} {Land}] units [in all non-occupied cities]", "[+20]% Strength <for [{Melee} {Land}] units>", "[-20]% [Science] [in all cities]", "[-10]% growth [in all non-occupied cities]", "[-25]% XP gained from combat <for [All] units>",
 					"[+50]% Strength <for [{Melee} {Land}] units> <when attacking> <when below [34] HP>", "[-25]% Strength <for [{Melee} {Land}] units> <when defending> <vs [Ranged] units> <when below [33] HP>", "[+15]% Unhappiness from [Population] [in all non-occupied cities] <when not at war>", "Cities are razed [2] times as fast", "Free [Sword] appears <upon constructing [Monument]> <with [67]% chance>"], 
 		"cities": ["Gholug","Xruul","Tagdud","Gruh","Mazoga","Glug","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
