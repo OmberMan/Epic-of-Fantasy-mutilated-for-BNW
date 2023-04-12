@@ -127,7 +127,7 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
-		"attackSound": "torpedo",
+		"attackSound": "horse",
 		"civilopediaText": [
 			{"text": "Beastmen Empire's aerial force consisted of Wyvern Rider. A dragon-like creature tamed and ridden, proved effective for war."},
         ]
@@ -145,7 +145,7 @@
 		"rangedStrength": 12,
 		"cost": 95,
 		"promotions": ["Woodsman"],
-                "uniques": ["Can see invisible [Melee] units", "Ignores Zone of Control"],
+                "uniques": ["Can see invisible [Melee] units", "Ignores Zone of Control", "Invisible to non-adjacent units <in [Forest] tiles>"],
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
@@ -178,16 +178,16 @@
 		"replaces": "Horseman",
 		"unitType": "Mounted",
 		"movement": 6,
-		"strength": 27,
-                "rangedStrength": 23,
+		"strength": 29,
+                "rangedStrength": 26,
                 "range": 1,
 		"cost": 350,
                 "hurryCostModifier": 100,
 		"requiredTech": "Horseback Riding",
-		"uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "Ignores Zone of Control", "May Paradrop up to [7] tiles from inside friendly territory", "[-20]% Strength for enemy [All] units in adjacent [All] tiles", "May withdraw before melee ([66]%)", "Destroys tile improvements when attacking", "[-33]% Strength <vs cities> <when attacking>", "[-50]% Strength <vs [Armored] units>", "[-50]% Strength <vs [Gunpowder] units> <when defending>", "[-33]% Strength <vs [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Ranged] units> <when defending>", "[-66]% Strength <vs [Air] units> <when defending>", "Eliminates combat penalty for attacking across a coast", "[+1] Sight", "[-15] HP when healing", "No defensive terrain bonus", "Can move after attacking", "Unable to capture cities", "No defensive terrain penalty", "Normal vision when embarked", "[+500]% maintenance costs"],
+		"uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "Ignores Zone of Control", "May Paradrop up to [7] tiles from inside friendly territory", "[-20]% Strength for enemy [All] units in adjacent [All] tiles", "May withdraw before melee ([66]%)", "Destroys tile improvements when attacking", "[-33]% Strength <vs cities> <when attacking>", "[-50]% Strength <vs [Armored] units>", "[-50]% Strength <vs [Gunpowder] units> <when defending>", "[-33]% Strength <vs [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Ranged] units> <when defending>", "[-66]% Strength <vs [Air] units> <when defending>", "Eliminates combat penalty for attacking across a coast", "[+1] Sight", "[-15] HP when healing", "No defensive terrain bonus", "Can move after attacking", "Unable to capture cities", "No defensive terrain penalty", "Normal vision when embarked", "[-66]% XP gained from combat", "[+500]% maintenance costs"],
 		"attackSound": "nuke",
 		"civilopediaText": [
-			{"text": "Dragonoid which has been going through rigorous training will declared a knight."},
+			{"text": "Dragon which has been going through rigorous training will declared a knight."},
         ]
 	},
 	{
@@ -196,16 +196,16 @@
 		"unitType": "Bomber",
                 "replaces": "Chariot Archer",
 		"movement": 1,
-		"strength": 20,
-		"rangedStrength": 20,
-		"range": 7,
+		"strength": 23,
+		"rangedStrength": 23,
+		"range": 8,
 		"cost": 300,
 		"requiredTech": "Trapping",
-		"uniques": ["[-10] HP when healing","[+400]% maintenance costs"],
+		"uniques": ["[-10] HP when healing","[+400]% maintenance costs", "[-33]% Strength <vs cities>", "[-33]% Strength <vs [Ranged] units>", "[-33]% Strength <vs [Ranged Gunpowder] units>", "[-50]% Strength <vs [Gunpowder] units>", "[-50]% Strength <vs [Armored] units>", "[-66]% Strength <vs [Air] units>", "[-66]% XP gained from combat"],
 		"hurryCostModifier": 50,
-		"attackSound": "",
+		"attackSound": "torpedo",
 		"civilopediaText": [
-			{"text": "A hybrid monster of Eagle and Lion, tamed and trained to be a valuable assets on the battlefield."},
+			{"text": "A hybrid Dragon of Eagle and Lion, tamed and trained to be a valuable assets on the battlefield."},
         ]
 	},
 	
