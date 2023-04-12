@@ -127,7 +127,7 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
-		"attackSound": "shot",
+		"attackSound": "torpedo",
 		"civilopediaText": [
 			{"text": "Beastmen Empire's aerial force consisted of Wyvern Rider. A dragon-like creature tamed and ridden, proved effective for war."},
         ]
@@ -179,10 +179,12 @@
 		"unitType": "Mounted",
 		"movement": 6,
 		"strength": 27,
+                "rangedStrength": 23,
+                "range": 1,
 		"cost": 350,
                 "hurryCostModifier": 100,
 		"requiredTech": "Horseback Riding",
-		"uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "May Paradrop up to [7] tiles from inside friendly territory", "[-15]% Strength for enemy [All] units in adjacent [All] tiles", "May withdraw before melee ([75]%)", "Destroys tile improvements when attacking", "[+50]% Strength <when attacking>", "Eliminates combat penalty for attacking across a coast", "[+1] Sight", "[-15] HP when healing", "No defensive terrain bonus", "Can move after attacking", "Unable to capture cities", "No defensive terrain penalty", "Normal vision when embarked", "[+500]% maintenance costs"],
+		"uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "Ignores Zone of Control", "May Paradrop up to [7] tiles from inside friendly territory", "[-20]% Strength for enemy [All] units in adjacent [All] tiles", "May withdraw before melee ([66]%)", "Destroys tile improvements when attacking", "[-33]% Strength <vs cities> <when attacking>", "[-50]% Strength <vs [Armored] units>", "[-50]% Strength <vs [Gunpowder] units> <when defending>", "[-33]% Strength <vs [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Ranged] units> <when defending>", "[-66]% Strength <vs [Air] units> <when defending>", "Eliminates combat penalty for attacking across a coast", "[+1] Sight", "[-15] HP when healing", "No defensive terrain bonus", "Can move after attacking", "Unable to capture cities", "No defensive terrain penalty", "Normal vision when embarked", "[+500]% maintenance costs"],
 		"attackSound": "nuke",
 		"civilopediaText": [
 			{"text": "Dragonoid which has been going through rigorous training will declared a knight."},
@@ -201,7 +203,7 @@
 		"requiredTech": "Trapping",
 		"uniques": ["[-10] HP when healing","[+400]% maintenance costs"],
 		"hurryCostModifier": 50,
-		"attackSound": "horse",
+		"attackSound": "",
 		"civilopediaText": [
 			{"text": "A hybrid monster of Eagle and Lion, tamed and trained to be a valuable assets on the battlefield."},
         ]
@@ -303,7 +305,7 @@
 		{
 			"name": "Daedalus",
 			"uniqueTo": "Argonautian States",
-			"unitType": "Mounted",
+			"unitType": "Armored",
 			"movement": 4,
 			"strength": 14,
 			"upgradesTo": "Landship",
