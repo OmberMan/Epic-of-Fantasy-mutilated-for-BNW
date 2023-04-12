@@ -450,11 +450,10 @@
 		"uniqueTo": "Elven Kingdom",
 		"replaces": "Worker",
 		"unitType": "Civilian",
-                "strength": 6,
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Damage is ignored when determining unit Strength", "Can build [Forest] improvements on tiles <by consuming this unit>", "Cannot attack", "Unit will heal every turn, even if it performs an action"],
-		"promotions": ["Woodsman"],
-		"cost": 95,
+		"uniques": ["Can build [Land] improvements on tiles", "Uncapturable", "Can build [Forest] improvements on tiles <by consuming this unit>", "Cannot attack", "Unit will heal every turn, even if it performs an action"],
+		"promotions": ["Woodsman", "Medic I"],
+		"cost": 90,
 		"civilopediaText": [
 			{"text": "An anthromorphic tree, a tree that has developed sentient. Comes to live to help their Keeper defend the forest."},
         ]
