@@ -19,6 +19,21 @@
         ]
 	},
 	
+	{
+		"name": "Axe Thrower",
+		"uniqueTo": "Dwarven Kingdom",
+		"replaces": "Composite Bowman",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 95,
+		"requiredTech": "Construction",
+		
+		"attackSound": "metalhit"
+	},
+	
 	//Drow Village
 	{
 		"name": "Bladedancer",
