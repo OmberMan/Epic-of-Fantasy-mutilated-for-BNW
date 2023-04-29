@@ -21,16 +21,30 @@
 		"replaces": "Observatory",
 		"maintenance": 1,
 		"percentStatBonus": {"science": 50},
-                "specialistSlots": {"Scientist": 1},
+                "specialistSlots": {"Scientist": 1, "Engineer": 1},
 		"uniques": ["Must be next to [Mountain]", 
 					//"[+1 Science] from [Mine] tiles [in this city]", 
                 "[+10]% [Production] [in this city]"],
 		"requiredTech": "Optics",
 		"civilopediaText": [
-			{"text": "Dwarven tinkerer often has their own place to tinker and mess around with their invention."},
+			{"text": "Dwarven tinkerer often has its own place to tinker and mess around with its invention."},
         ]
 	},
-	
+		{
+		"name": "Runeforge",
+		"replaces": "Forge",
+		"uniqueTo": "Dwarven Kingdom",
+		"hurryCostModifier": 45,
+		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {"production": 5},
+		"science": 1,
+		"maintenance": 2,
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [10] Experience [in this city]", "[+1 Science] from [Mine] tiles [in this city]", "[+1 Production] from [Iron] tiles [in this city]"] 
+		"requiredTech": "Iron Working",
+		"civilopediaText": [
+			{"text": "Forgetaboutit."},
+        ]
+	},
 	//Drow Village
 	{
 		"name": "Training Ground",
@@ -95,11 +109,12 @@
 		"name": "Ancestor Tree",
 		"uniqueTo": "Elven Kingdom",
 		"cost": 150,
-		"culture": 2,
-		"faith": 1,
+		"culture": 1,
+  "food": 1,
+		"faith": 2,
 		"isNationalWonder": true,
-		"uniques": ["[+2 Faith, +1 Science] from each Trade Route"],
-		"requiredTech": "Construction",
+		"uniques": ["[+1 Food] from [Forest] tiles [in this city]", "[Land] Units adjacent to this city heal [+10] HP per turn when healing"],
+		"requiredTech": "Pottery",
 		"civilopediaText": [
 			{"text": "A tree sprout from the fallen body of the first Elven born. Ancestor Tree is a sacred site for the Elven Kingdom."},
         ]
