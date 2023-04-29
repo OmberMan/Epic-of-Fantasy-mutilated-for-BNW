@@ -18,7 +18,21 @@
 			{"text": "A construct made of Orichalcum. Its sturdiness exceeds that of a Diamond. This makes the golem a formidable foe in the battlefield."},
         ]
 	},
-	
+		{
+		"name": "Iron Guard",
+		"replaces": "Swordsman",
+		"uniqueTo": "Dwarven Kingdom",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 100,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Musketman",
+		"requiredResource": "Iron",
+"hurryCostModifier": 50,
+		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+15]% Strength <when defending>", "[+10]% Strength bonus for [Sword] units within [1] tiles", "Damage is ignored when determining unit Strength"],
+		"attackSound": "metalhit"
+	},
 	{
 		"name": "Axe Thrower",
 		"uniqueTo": "Dwarven Kingdom",
@@ -28,9 +42,10 @@
 		"strength": 10,
 		"rangedStrength": 12,
 		"range": 1,
-		"cost": 95,
+"hurryCostModifier": 35,	
+"cost": 85,
 		"requiredTech": "Construction",
-		
+		"uniques": ["[+25]% Strength <vs [Melee] units> <when attacking>", "[-25]% <vs cities> <when attacking>"], 
 		"attackSound": "metalhit"
 	},
 	
@@ -66,9 +81,9 @@
 		"cost": 90,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["[-15]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles", "Can build [Fort] improvements on tiles", "No movement cost to pillage", "Damage is ignored when determining unit Strength"],
+		"uniques": ["[-15]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles", "No movement cost to pillage", "Damage is ignored when determining unit Strength"],
                 "promotions": ["Blitz"],
-		"hurryCostModifier": 10,
+		"hurryCostModifier": 15,
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "A crude yet effective monster, a menace to those who dare to oppose. Swings hammer like no other. Prepare to be brutalized."},
@@ -156,7 +171,7 @@
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 9,
-                "range": 3,
+  "range": 3,
 		"rangedStrength": 12,
 		"cost": 95,
 		"promotions": ["Woodsman"],
@@ -209,7 +224,7 @@
 		"name": "Gryphon",
 		"uniqueTo": "Dragonborn Union",
 		"unitType": "Bomber",
-                "replaces": "Chariot Archer",
+  "replaces": "Chariot Archer",
 		"movement": 1,
 		"strength": 23,
 		"rangedStrength": 23,
@@ -240,7 +255,7 @@
 	
 	//Argonautian States
 	{
-		"name": "Peltast",
+		"name": "APeltast",
 		"replaces": "Spearman",
 		"uniqueTo": "Argonautian States",
 		"unitType": "Sword",
@@ -977,8 +992,8 @@
 		"unitType": "Atomic Bomber",
                 "uniqueTo": "Hyperborea",
 		"movement": 1,
-		"strength": 21,
-		"rangedStrength": 21,
+		"strength": 24,
+		"rangedStrength": 24,
 		"range": 6,
                 "requiredTech": "Bronze Working",
 		"cost": 250,
