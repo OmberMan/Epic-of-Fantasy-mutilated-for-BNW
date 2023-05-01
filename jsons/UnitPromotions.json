@@ -768,7 +768,7 @@
 	//Overwrites Stuff
 	{
 		"name": "Ambush I",
-		"uniques": ["[+33]% Strength <vs [Armored] units>", "[+25]% Strength <vs [Construct] units>"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>", "[+33]% Strength <vs [Construct] units>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
         "column": 25,
         "row": 1
@@ -776,7 +776,7 @@
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units>", "[+25]% Strength <vs [Construct] units>"],
+		"uniques": ["[+33]% Strength <vs [Armored] units>", "[+33]% Strength <vs [Construct] units>", "[+33]% Strength <vs [Siege] units>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
         "column": 25,
         "row": 2
@@ -785,11 +785,11 @@
 	//Dwarven Kingdom~~~~~~~
 	{
 		"name": "Construct",
-		"uniques": ["[+20]% Strength <when defending> <when above [40] HP>", "[+20]% Strength <when defending> <vs [Ranged] units> <when above [40] HP>", "Unable to capture cities", "No Sight", "Uncapturable", "Damage is ignored when determining unit Strength", "[-4] HP when healing", "All healing effects doubled <in [City center] tiles>"]
+		"uniques": ["[+20]% Strength <when defending> <when above [35] HP>", "[+20]% Strength <when defending> <vs [Ranged] units> <when above [35] HP>", "Unable to capture cities", "No Sight", "Uncapturable", "Damage is ignored when determining unit Strength", "[-4] HP when healing", "All healing effects doubled <in [City center] tiles>"]
 	},
 	{
 		"name": "Exposed Core",
-		"uniques": ["[+40]% Strength <when attacking> <when below [40] HP>", "[-20]% Strength <when defending> <when below [40] HP>"]
+		"uniques": ["[+40]% Strength <when attacking> <when below [36] HP>", "[-30]% Strength <when defending> <when below [36] HP>"]
 	},
 	
 	//Drow Village~~~~~~~
@@ -813,10 +813,11 @@
 	{
 		"name": "Water Creature",		//TLDR: yes water good, no water bad
 		"uniques": ["[+10]% Strength <when fighting in [Fresh Water] tiles> <with [0] to [0] neighboring [Coast] tiles>",
-					"[+15]% Strength <when fighting in [Land] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+					"[+15]% Strength <when fighting in [Coastal] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+"[-50]% Strength <when fighting in [Land] tiles>",
 					"[+1] Movement <in [Fresh Water] tiles> <with [0] to [0] neighboring [Coast] tiles>",
 					"[-1] Movement <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>",
-				//	"[+15]% Strength <when fighting in [Coast] tiles>","[+1] Movement <in [Coast] tiles>",
+				"[+15]% Strength <when fighting in [Coast] tiles>","[+1] Movement <in [Coast] tiles>",
 					"Normal vision when embarked","Defense bonus when embarked",
 					"Eliminates combat penalty for attacking across a coast","Eliminates combat penalty for attacking over a river"]
 	},
@@ -830,11 +831,11 @@
 	//Argonautian States~~~~~~~
 	{
 		"name": "Agoge",
-		"uniques": ["[+10]% Strength <when adjacent to a [{Melee} {Land}] unit>", "Earn [33]% of killed [Military] unit's [Strength] as [Culture]"]
+		"uniques": ["[+10]% Strength <when adjacent to a [{Melee} {Land}] unit>", "Earn [20]% of killed [Military] unit's [Strength] as [Culture]"]
 	},
 	{
 		"name": "Heroic General",
-		"uniques": ["[+10]% Strength bonus for [Military] units within [2] tiles"]
+		"uniques": ["[+20]% Strength bonus for [Military] units within [2] tiles"]
 	},
 	{
 		"name": "Impetus",
@@ -842,11 +843,11 @@
 	},
 	{
 		"name": "Bloodbath",
-		"uniques": ["Heals [33] damage if it kills a unit"]
+		"uniques": ["Heals [25] damage if it kills a unit", "[+25]% Strength <when attacking> <when above [50] HP>"]
 	},
 	{
 		"name": "Warbanner",
-		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"]
+		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles", "[+10]% Strength bonus for [All] units within [1] tiles"]
 	},
 	{
 		"name": "Ignores ZOC",
