@@ -335,16 +335,16 @@
 		},
 		{
 			"name": "Daedalus",
-			"uniqueTo": "Argonautian States",
+			"uniqueTo": "Athens",
 			"unitType": "Armored",
 			"movement": 4,
-			"strength": 14,
+			"strength": 16,
 			"upgradesTo": "Landship",
 			"uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can construct [Academy]",
-						"Can speed up construction of a building", "Can construct [Basilikoi Paides]"],
+						"Can speed up construction of a building", "Can construct [Basilikoi Paides]", "May withdraw before melee ([90]%)", "Can see over obstacles", "All tiles cost 1 movement","Can pass through impassable tiles"],
 			"promotions": ["Quick Study", "Heroic General",
 					   "Warbanner"],
-			"attackSound": "tankshot"
+			"attackSound": "bomber"
 		},
 		{
 			"name": "Theopompus",
