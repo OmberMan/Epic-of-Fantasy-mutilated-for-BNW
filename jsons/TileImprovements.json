@@ -29,16 +29,7 @@
 		"techRequired": "Mining",
 		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Improvement", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
-	},
-	{
-		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-		"gold": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Improvement", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "T"
-	},
+	},
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
@@ -131,11 +122,10 @@
 	{
 		"name": "Improved Barricade",
 		"uniqueTo": "Orc Horde",
-		"turnsToBuild": 6,
+		"turnsToBuild": 5,
 		"techRequired": "Engineering",
-		"production": 1,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%", "[+2 Culture] <with [1] to [6] neighboring [Improved Barricade] tiles>", "Improvement", "[+1 Production] <with [1] to [6] neighboring [Mine] tiles>"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [33]%", "[+1 Production, +1 Gold] <with [1] to [6] neighboring [Mountain] tiles>", "Improvement", "[+1 Production] <with [1] to [6] neighboring [Mine] tiles>", "Removes removable features when built", "Adjacent enemy units ending their turn take [10] damage"],
 		"civilopediaText": [
 			{"text": "A crude barricade made from what's available on the battlefield."},
         ]
