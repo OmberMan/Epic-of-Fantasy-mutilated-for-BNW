@@ -18,6 +18,24 @@
 			{"text": "A construct made of Orichalcum. Its sturdiness exceeds that of a Diamond. This makes the golem a formidable foe in the battlefield."},
         ]
 	},
+{
+		"name": "Gyroblimp",
+		"uniqueTo": "Dwarven Kingdom",
+		"replaces": "Knight",
+		"unitType": "Siege",
+		"movement": 4,
+		"strength": 19,
+  "rangedStrength": 23,
+  "range": 1,
+		"cost": 270,
+		"requiredTech": "Engineering",
+		"uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "Can see over obstacles", "Ignores Zone of Control", "May withdraw before melee ([90]%)","No defensive terrain bonus", "[+100]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Armored] units>", "[-25]% Strength <vs [Gunpowder] units> <when defending>", "Must set up to ranged attack", "[-25]% Strength <vs [Ranged Gunpowder] units> <when defending>", "[-15]% Strength <vs [Ranged] units> <when defending>", "Transfer Movement to [Civilian]", "[-90]% Strength <vs [Air] units>", "Eliminates combat penalty for attacking across a coast", "[+2] Sight", "[-10] HP when healing", "Can move after attacking", "Unable to capture cities", "No defensive terrain penalty", "Normal vision when embarked"],
+		"hurryCostModifier": 35,
+		"attackSound": "bomber",
+		"civilopediaText": [
+			{"text": "towal war wargammber"},
+        ]
+	},
 /*
 		{
 		"name": "Iron Guard",
