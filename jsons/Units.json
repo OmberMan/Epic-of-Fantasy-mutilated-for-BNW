@@ -36,7 +36,6 @@
 			{"text": "towal war wargammber"},
         ]
 	},
-/*
 		{
 		"name": "Guardian",
 		"replaces": "Swordsman",
@@ -67,7 +66,6 @@
 		"uniques": ["[+25]% Strength <vs [Melee] units> <when attacking>", "[-25]% <vs cities> <when attacking>"], 
 		"attackSound": "metalhit"
 	},
-	*/
 	//Drow Village
 	{
 		"name": "Bladedancer",
