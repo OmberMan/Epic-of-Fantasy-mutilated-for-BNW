@@ -38,7 +38,7 @@
 	},
 /*
 		{
-		"name": "Iron Guard",
+		"name": "Guardian",
 		"replaces": "Swordsman",
 		"uniqueTo": "Dwarven Kingdom",
 		"unitType": "Sword",
@@ -49,7 +49,7 @@
 		"upgradesTo": "Musketman",
 		"requiredResource": "Iron",
 "hurryCostModifier": 50,
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+15]% Strength <when defending>", "[+10]% Strength bonus for [Sword] units within [1] tiles", "Damage is ignored when determining unit Strength"],
+		"uniques": ["[+20]% Strength <when defending>", "[+5]% Strength bonus for [Sword] units within [1] tiles", "Damage is ignored when determining unit Strength"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -59,7 +59,7 @@
 		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 10,
-		"rangedStrength": 12,
+		"rangedStrength": 14,
 		"range": 1,
 "hurryCostModifier": 35,	
 "cost": 85,
