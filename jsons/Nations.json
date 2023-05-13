@@ -7,7 +7,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		"style": "Dwarven",
-                "favoredReligion": "Judaism",
+  "favoredReligion": "Judaism",
 
 		"startIntroPart1": "Most majestic King Higba, the leader of the Dwarven Kingdom! Your nation has ushered onto new age owing to your reign. The mountainous land of Dwarven land surely will brings forth advances and breakthroughs.",
 		"startIntroPart2": "King Higba, your brilliant mind echoed throughout the lands. Will you stand unchallenged like a mountain? Will you reach the top and protect the Dwarven's land? Can you build a civilization that will stand the test of time?",
@@ -18,7 +18,7 @@
 		"introduction": "Greetings stranger, I am King Higba of Dwarven Kingdom. Leader of the Dwarven, conqueror of the mountains.",
 		
 		"neutralHello": "Greetings, your Highness.",
-		"hateHello": "What now?",
+		"hateHello": "Got another entry for the book?",
 		"tradeRequest": "I think it would be beneficial for both of us to conduct in a trade.",
 		
 		"outerColor": [ 27, 53, 63]
@@ -668,19 +668,19 @@
 		"adjective": ["Centaur"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
-                "style": "North American",
+                "style": "Horseman",
 		
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "It's tramplin time.",
 		"attacked": "Neigh, you don't attack the pack.",
-		"defeated": "Why has god made us unfinished.",
+		"defeated": "Why did god make us unfinished.",
 		"introduction": "I am a horseman we are the horseman",
 		
 		"neutralHello": "Greetings biped.",
 		"hateHello": "Bastard.",
-		"tradeRequest": "Throw in some spare horses with that.",
+		"tradeRequest": "I can throw in some spare horses with that.",
 		
 		"outerColor": [165,51,51],
 		"innerColor": [84,52,32],
