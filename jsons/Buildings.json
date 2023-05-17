@@ -36,7 +36,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"production": 10},
 		"science": 1,
-  "production: 1,
+  "production": 1,
 		"maintenance": 2,
 		"uniques": ["New [Military] units start with [10] Experience [in this city]", "[+1 Production, +1 Faith] from [Iron] tiles [in this city]"] 
 		"requiredTech": "Iron Working",
