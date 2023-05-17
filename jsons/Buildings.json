@@ -36,7 +36,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"production": 10},
 		"science": 1,
-  "production 1,
+  "production: 1,
 		"maintenance": 2,
 		"uniques": ["New [Military] units start with [10] Experience [in this city]", "[+1 Production, +1 Faith] from [Iron] tiles [in this city]"] 
 		"requiredTech": "Iron Working",
@@ -418,13 +418,14 @@
 		"name": "Dryad's Hut",
 		"uniqueTo": "Elven Kingdom",
 		"replaces": "Garden",
-                "cost": 100,
-                "food": 1,
+                "cost": 65,
+  "faith": 1,
+  "culture": 1,
 		"specialistSlots": {"Artist": 2},
 		"uniques": ["[+15]% Great Person generation [in this city]", "Must be next to [Forest]", "+2 Artist slots"],
 		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"requiredTech": "Philosophy"
+		"maintenance": 0,
+		"requiredTech": "Trapping"
 	},
 	
 	//Clockwerk Church
@@ -480,7 +481,10 @@
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
 			"[+1 Production] from [Sheep] tiles [in this city]"],
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Horseback Riding",
+"civilopediaText": [
+			{"text": "You scratch my back And I'll scratch yours Jack And that's the message for today."},
+]
 	},
 	
 	//Shinso
