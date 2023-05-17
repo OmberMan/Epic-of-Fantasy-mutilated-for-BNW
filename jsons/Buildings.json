@@ -488,25 +488,25 @@
 	{
 		"name": "Pillar of Learning",
 		"uniqueTo": "Shinso",
-		"cost": 250,
+		"cost": 210,
 		"science": "4",
-                "cannotBeBuiltWith": "Pillar of Prosperity",
+  "cannotBeBuiltWith": ["Pillar of Prosperity", "Pillar of Life", "Pillar of Faith"],
 		"specialistSlots": {"Merchant": 1},
 		"isNationalWonder": true,
 		"uniques": ["[+1 Culture] from every specialist [in this city]", "[+25]% Great Person generation [in this city]", "Reveal up to [40] [All] within a [8] tile radius <upon constructing [Pillar of Learning]>",
 					"Can only be built [in all cities] <in cities without a [Pillar of Life]>", "Can only be built [in all cities] <in cities without a [Pillar of Prosperity]>", "Can only be built [in all cities] <in cities without a [Pillar of Faith]>"
 					],
-		"requiredTech": "Writing"
+		"requiredTech": "Mathematics"
 	},
 	{
 		"name": "Pillar of Life",
 		"uniqueTo": "Shinso",
-		"cost": 250,
+		"cost": 210,
 		"food": "4",
-                "cannotBeBuiltWith": "Pillar of Faith",
+  "cannotBeBuiltWith": ["Pillar of Prosperity", "Pillar of Learning", "Pillar of Faith"],
 		"specialistSlots": {"Scientist": 1},
 		"isNationalWonder": true,
-		"uniques": ["[+15]% growth [in this city]", 
+		"uniques": ["[+11]% growth [in this city]", 
 					"Can only be built [in all cities] <in cities without a [Pillar of Learning]>", "Can only be built [in all cities] <in cities without a [Pillar of Prosperity]>", "Can only be built [in all cities] <in cities without a [Pillar of Faith]>", 
 					"[Land] Units adjacent to this city heal [+25] HP per turn when healing"],
 		"requiredTech": "Construction"
@@ -514,26 +514,26 @@
 	{
 		"name": "Pillar of Faith",
 		"uniqueTo": "Shinso",
-		"cost": 250,
+		"cost": 210,
 		"faith": "4",
-                "cannotBeBuiltWith": "Pillar of Life",
+  "cannotBeBuiltWith": ["Pillar of Prosperity", "Pillar of Life", "Pillar of Learning"],
 		"specialistSlots": {"Artist": 1},
 		"isNationalWonder": true,
 		"uniques": ["[+1 Happiness, +1 Faith] from [Mountain] tiles [in this city]", "[+1 Faith] from [River] tiles [in this city]", "All newly-trained [Melee] units [in this city] receive the [Altitude Training] promotion",
 					"Can only be built [in all cities] <in cities without a [Pillar of Life]>", "Can only be built [in all cities] <in cities without a [Pillar of Prosperity]>", "Can only be built [in all cities] <in cities without a [Pillar of Learning]>"],
-		"requiredTech": "Drama and Poetry"
+		"requiredTech": "Philosophy"
 	},
 	{
 		"name": "Pillar of Prosperity",
 		"uniqueTo": "Shinso",
-		"cost": 250,
-                "cannotBeBuiltWith": "Pillar of Learning",
+		"cost": 210,
+  "cannotBeBuiltWith": ["Pillar of Learning", "Pillar of Life", "Pillar of Faith"],
 		"gold": "4",
 		"specialistSlots": {"Engineer": 1},
 		"isNationalWonder": true,
-		"uniques": ["[+1 Happiness] from all [Gold] buildings <in cities with a [Pillar of Prosperity]>", "[+15]% Production when constructing [All] buildings [in this city]", 
+		"uniques": ["[+1 Happiness, +1 Food] from all [Gold] buildings <in cities with a [Pillar of Prosperity]>", "[+10]% Production when constructing [All] buildings [in this city]", 
 					"Can only be built [in all cities] <in cities without a [Pillar of Learning]>", "Can only be built [in all cities] <in cities without a [Pillar of Life]", "Can only be built [in all cities] <in cities without a [Pillar of Faith]>"],
-		"requiredTech": "Currency"
+		"requiredTech": "Drama and Poetry"
 	},
 	
 	//Gnome Alliance
@@ -717,11 +717,11 @@
 		"uniqueTo": "Fanrong Republic",
 		"replaces": "Market",
 		"cost": 85,
-		"gold": 3,
-                "percentStatBonus": {"gold": 15},
+		"gold": 2,
+  "percentStatBonus": {"gold": 35},
 		"culture": 1,
 		"specialistSlots": {"Merchant": 2},
-		"uniques": ["Cost increases by [20] per owned city", "Provides [1] [Porcelain]"],
+		"uniques": ["Provides [1] [Porcelain]"],
 		"requiredTech": "Currency",
 		"civilopediaText": [
 			{"text": "Fanrong Republic is famous for their Porcelain. Industry of Porcelain as its main commodity"},
@@ -883,12 +883,12 @@
 		"uniqueTo": "Nerubian Kingdom",
 		"replaces": "Temple",
 		"cost": 115,
-		"faith": 2,
-                "food": 1,
+		"faith": 1,
+  "food": 1,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy",
-		"uniques": ["Destroyed when the city is captured", "[+1 Production] from [Desert] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [Desert] tiles [in this city]"],
 		"civilopediaText": [
 			{"text": "Ancient fortress of the Nerubian. Contain a lot of lost knowledge of the past."},
         ]
@@ -918,11 +918,11 @@
 		"name": "Aspect of the Moon",
 		"uniqueTo": "Holy Lunar Theocracy",
 		"replaces": "Shrine",
-		"faith": 2,
+		"faith": 1,
 		"maintenance": 1,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 100,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+1 Faith, +1 Science] from every specialist [in this city]", "[-50]% Unhappiness from [Specialists] [in this city]", "Reveal up to [15] [All] within a [5] tile radius <upon constructing [Aspect of the Moon]>"],
+		"uniques": ["[+1 Faith, +1 Science] from every specialist [in this city] <when between [21] and [-21] Happiness>", "[-50]% Unhappiness from [Specialists] [in this city]", "Reveal up to [15] [All] within a [5] tile radius <upon constructing [Aspect of the Moon]>"],
 		"civilopediaText": [
 			{"text": "Holy Lunar reveals to those who are deemed worthy."},
         ]
