@@ -22,9 +22,7 @@
 		"maintenance": 1,
 		"percentStatBonus": {"science": 50},
                 "specialistSlots": {"Scientist": 1, "Engineer": 1},
-		"uniques": ["Must be next to [Mountain]", 
-					//"[+1 Science] from [Mine] tiles [in this city]", 
-                "[+10]% [Production] [in this city]"],
+		"uniques": ["Must have an owned [Mountain] within [2] tiles", "[+1 Science] from [Mine] tiles [in this city]", "[+1 Science, +1 Gold] from every specialist [in this city] <during a Golden Age>", "[+5]% [Production] [in this city]"],
 		"requiredTech": "Optics",
 		"civilopediaText": [
 			{"text": "Dwarven tinkerer often has its own place to tinker and mess around with its invention."},
@@ -36,10 +34,11 @@
 		"uniqueTo": "Dwarven Kingdom",
 		"hurryCostModifier": 45,
 		"specialistSlots": {"Engineer": 1},
-		"percentStatBonus": {"production": 5},
+		"percentStatBonus": {"production": 10},
 		"science": 1,
+  "production 1,
 		"maintenance": 2,
-		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [10] Experience [in this city]", "[+1 Science] from [Mine] tiles [in this city]", "[+1 Production] from [Iron] tiles [in this city]"] 
+		"uniques": ["New [Military] units start with [10] Experience [in this city]", "[+1 Production, +1 Faith] from [Iron] tiles [in this city]"] 
 		"requiredTech": "Iron Working",
 		"civilopediaText": [
 			{"text": "Forgetaboutit."},
@@ -111,7 +110,7 @@
 		"cost": 150,
 		"culture": 1,
   "food": 1,
-		"faith": 2,
+		"faith": 1,
 		"isNationalWonder": true,
 		"uniques": ["[+1 Food] from [Forest] tiles [in this city]", "[Land] Units adjacent to this city heal [+10] HP per turn when healing"],
 		"requiredTech": "Pottery",
@@ -897,16 +896,19 @@
 	//Lyrian Kingdom
 	{
 		"name": "Bulwark",
-		"uniqueTo": "Lyrian Kingdom",
+		"uniqueTo": Lyrian Kingdom",
 		"replaces": "Walls",
 	//	"cityStrength": 5
 		"cityHealth": 150,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"requiredTech": "Masonry",
 		"uniques": ["Destroyed when the city is captured", 
 					"[+1 Culture] <starting from the [Classical era]>", 
+"[+1 Culture] <starting from the [Medieval era]>", 
+"[+1 Culture] <starting from the [Industrial era]>", 
 					"[+1 Culture] <starting from the [Renaissance era]>", 
 					"[+1 Culture] <starting from the [Modern era]>", 
+"[+1 Culture] <starting from the [Atomic era]>", 
 					"[+1 Culture] <starting from the [Information era]>"],
 		"civilopediaText": [
 			{"text": "Walls so tall, so wonderful, decorated with ornaments, a beautiful protective layer for the Lyrian people."},
