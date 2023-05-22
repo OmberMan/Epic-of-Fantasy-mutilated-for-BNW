@@ -255,7 +255,7 @@
 	
 	//Orz'athoth of Children of Deep Dweller
 	{
-		"name": "Children of Deep Dweller",
+		"name": "Empire of Mu",
 		"leaderName": "Orz'athoth",
 		"adjective": ["Muror"],
 		"startBias": ["Marsh"],
@@ -272,13 +272,13 @@
 		"introduction": "Oh, another lost child, come, let us guide you to the right path.",
 		
 		"neutralHello": "May you come to us.",
-		"hateHello": "What?",
+		"hateHello": "What are \nYOU \ndoing in \nMy \nSWAMP?",
 		"tradeRequest": "It is time for a trade.",
 		
-		"outerColor": [3, 48, 16],
+		"outerColor": [3, 24, 64],
 		"innerColor": [0,242,189],
 		"uniqueName": "Darkest Salvation",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "Gain a free [Old God Monument] [in annexed cities]", "[+1 Food, +2 Culture, +1 Production] from every [Marsh]", "[+26]% Strength <for [All] units> <when fighting in [Marsh] tiles>", "[+1 Faith] from [Mine] tiles [in holy cities]"], 
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Gain a free [Old God Monument] [in annexed cities]", "[+1 Food, +2 Culture, +1 Production] from every [Marsh]", "[+26]% Strength <for [All] units> <when fighting in [Marsh] tiles>", "[+1 Faith] from [Mine] tiles [in holy cities]"], 
 		"cities": ["Zhall'ru","Eldhurst","Creeton","Khadram","Agranthin","Itlognig","Zaa-nag","Lihlelica","Nathosh","Sokrlithuact","Closarugn","Kitl-zothat",
 			"Iggtharacama","Mighanot","Yubotho","Athotuaq","C'darhothon"],
 		"civilopediaText": [
