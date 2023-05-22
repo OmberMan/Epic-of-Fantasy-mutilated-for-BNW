@@ -536,7 +536,7 @@ NationIcons/Centaur Tribes
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Children of Deep Dweller
+NationIcons/Empire of Mu
   rotate: false
   xy: 1888, 1312
   size: 100, 100
@@ -788,7 +788,7 @@ UnitIcons/Daedalus
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Deep One
+UnitIcons/Ushqulrum
   rotate: false
   xy: 1728, 1096
   size: 100, 100
