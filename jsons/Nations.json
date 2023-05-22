@@ -315,14 +315,14 @@
 		"outerColor": [84,3,17],
 		"innerColor": [239,174,6],
 		"uniqueName": "Imagine Dragon these Nuts",
-		"uniques": ["[+10]% Strength <within [1] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State", "[+2 Science, +1 Culture] from every [Mountain]", "[+1 Production] from every [Sheep]", "[+1] population [in capital] <upon conquering a city>", "[-1] population in a random city <upon conquering a city>", "Free [Sword] appears <upon constructing [Wonder]> <with [67]% chance>""], 
+		"uniques": ["[+10]% Strength <within [1] tiles of a [Mountain]>", "Gain [10] Influence with a [Military] gift to a City-State", "[+2 Science, +1 Culture] from every [Mountain]", "[+1 Production] from every [Sheep]", "[+1] population [in capital] <upon conquering a city>", "[-1] population in a random city <upon conquering a city>", "Free [Sword] appears <upon constructing [Wonder]> <with [67]% chance>"], 
 		"cities": ["Oros","Aylzrainton, the Braveheart","Boris","Ryrrir, Champion of Men","Horos", "Oddreg, Protector of the Forest","Snoros","Amor, Lord of the Yellow","Zuvnon, the Dark One",
 				   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
 				   "Myrsys, the Stubborn","Jolbaim, the Chosen",
 				   "Jaigerynth, the Skinny One","Dondrentarth, the Mysterious","Nudroilth, Eternal Fire",
 				   "Eovnayntein, the Quiet","Srialia, the Tyrant"],
 		"civilopediaText": [
-			{"text":"Dragonborn Union is a civilization of half human-half dragon races. They are the direct descendant of Dragons who once ruled over the sky and the earth. Now long gone, only their descendant can brought back their old glory. The Dragonborn shares great strength and wisdom from their ancestors."},
+			{"text":"Dragonborn Union is a civilization of half human-half dragon nobeds. They are the direct descendant of Dragons who once ruled over the sky and the earth. Now long gone, only their descendant can brought back their old glory. The Dragonborn shares great strength and wisdom from their ancestors."},
 			{"text":"Dragonborn Union is a good all-around civilization. They are particularly good at Diplomacy with their bonus on gifting units to City-states."},
 			{"text":"Dragonborn Union can be a good domination civilization as well in mid game with its strong unique units which can bypass impassable terrain."},
         ]
