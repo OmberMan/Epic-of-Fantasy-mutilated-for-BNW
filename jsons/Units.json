@@ -204,14 +204,14 @@
 	
 	//Children of Deep Dweller
 	{
-		"name": "Deep One",
+		"name": "Ushqulrum",
 		"uniqueTo": "Children of Deep Dweller",
 		"replaces": "Warrior",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 7,
 		"cost": 48,
-		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>", "Invisible to non-adjacent units", "[+50]% Strength <when fighting in [Marsh] tiles>", "[+15]% Strength <when fighting in [Friendly Land] tiles>", "May withdraw before melee ([33]%)"],
+		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>", "Invisible to non-adjacent units", "[+50]% Strength <when fighting in [Marsh] tiles>", "[+15]% Strength <when fighting in [Friendly Land] tiles>", "May withdraw before melee ([20]%)"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Horror creature from the abysmal sea. Surfaced from the prayer and calling of the Cultist."},
