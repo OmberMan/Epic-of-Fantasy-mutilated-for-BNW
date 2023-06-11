@@ -161,7 +161,7 @@
 	},
 	{
 		"name": "Wyvern Rider",
-		"uniqueTo": "Beastmen Empire",
+		"uniqueTo": "Aucellus",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 12,
@@ -170,7 +170,7 @@
 		"cost": 75,
  	"requiredTech": "Trapping",
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>", "[-99]% Strength <vs cities>", "[-66]% XP gained from combat"],
-		"attackSound": "horse",
+		"attackSound": "elephant",
 		"civilopediaText": [
 			{"text": "Strategic-type spell that only used in emergency. A very strong spell but limited by its long preparation. Only a limit amount of the are cast throughout the Wizard Council's history."},
         ]
