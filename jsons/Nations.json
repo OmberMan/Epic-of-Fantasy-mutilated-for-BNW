@@ -3,8 +3,9 @@
 	{
 		"name": "Dwarven Kingdom",
 		"leaderName": "Higba",
+		"personality": "Higba",
 		"adjective": ["Dwarven"],
-		"startBias": ["Hill"],
+		"startBias": ["Hill", "Mountain"],
 		"preferredVictoryType": "Scientific",
 		"style": "Dwarven",
   "favoredReligion": "Judaism",
@@ -84,6 +85,7 @@
 		"name": "Orc Horde",
 		"leaderName": "Rog",
 		"adjective": ["Orc"],
+		"personality": "Rog",
 		"preferredVictoryType": "Domination",
                 "style": "Orcish",
                 "favoredReligion": "Christianity",
@@ -221,6 +223,7 @@
 	{
 		"name": "Elven Kingdom",
 		"leaderName": "Sylvanna",
+		"personality": "Sylvanna",
 		"adjective": ["Elven"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
@@ -294,6 +297,7 @@
 		"leaderName": "Daegon",
 		"adjective": ["Dragonborn"],
 		"startBias": ["Mountain"],
+		"personality": "Daegon",
                 "preferredVictoryType": "Domination",
                 "style": "Nordic",
 		
@@ -665,6 +669,7 @@
 	{
 		"name": "Centaur Tribes",
 		"leaderName": "Grimhorn",
+		"personality": "Grimhorn",
 		"adjective": ["Centaur"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
@@ -700,7 +705,8 @@
 		"name": "Shinso",
 		"leaderName": "Takashi no Seimei Abe",
 		"adjective": ["Shinso"],
-	"startBias": ["Tundra"],
+	        "startBias": ["Tundra"],
+		"personality": "Takashi no Seimei Abe",
                 "preferredVictoryType": "Neutral",
                 "style": "East Asian",
                 "favoredReligion": "Shinto",
@@ -940,6 +946,7 @@
 		"leaderName": "Zheng He",
 		"adjective": ["Tiyanisu"],
 		"startBias": ["Coast"],
+		"personality": "Zeng He",
 		"preferredVictoryType": "Diplomatic",
                 "style": "East Asian",
 		
@@ -1221,8 +1228,9 @@
 	{
 		"name": "Holy Lunar Theocracy",
 		"leaderName": "Celeste",
-		"adjective": ["Lesbian"],
-		"startBias": ["Avoid [Desert]"],
+		"adjective": ["Celesbian"],
+		"startBias": ["Avoid [Desert]", "Mountain"],
+		"personality": "Celeste",
 		"preferredVictoryType": "Scientific",
                 "style": "Mediterranean",
 		
@@ -1235,7 +1243,7 @@
 		"introduction": "Greetings, I am Celeste, supreme leader of Lunari people! I welcome you to my court.",
 		
 		"neutralHello": "By the Lunar's grace, we greet thee.",
-		"hateHello": "Not now.",
+		"hateHello": "Silence early bird.",
 		"tradeRequest": "The Lunar has spoken to us that you will accept this bargain.",
 		
 		"outerColor": [113,6,201],
@@ -1256,8 +1264,9 @@
 	{
 		"name": "Magnar Empire",
 		"leaderName": "Vaath II",
-		"adjective": ["Magnarian"],
+		"adjective": ["Chud"],
 		"startBias": ["Plains"],
+		"personality": "Vaath",
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "The Great Emperor Vaath II of Magnar Empire! Ruthless but cunning, you lead your people with iron fist. Although your people suffer from your tyrannical rule, your empire succeded where others fall. You came and conquer one nation after another. Forced their citizen upon your uncontested rule, a cruel yet effective directive.",
@@ -1268,7 +1277,7 @@
 		"defeated": "No, this can't be true. I am Vaath II, my reign is eternal!",
 		"introduction": "I am Emperor Vaath II, the Great ruler of Magnar Empire. You may call me Your Majesty.",
 		
-		"neutralHello": "Oh, it's you.",
+		"neutralHello": "The Magnus has fallen, millions must die.",
 		"hateHello": "Begone NOW!",
 		"tradeRequest": "You will accept this.",
 		
