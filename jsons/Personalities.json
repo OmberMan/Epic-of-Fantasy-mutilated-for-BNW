@@ -17,9 +17,24 @@
 }
 	},
 {
+                "name": "Yurr",
+                "preferredVictoryType": "Neutral",
+                "food": 8,
+                "production": 1,
+                "gold": 1,
+                "culture": 1,
+                "science": 1,
+                "faith": 3,
+                "military": 1,
+                "warMongering": 1,
+"priorities": { 
+    "Exploration": 60
+}
+        },
+{
 		"name": "Rog",
 		"preferredVictoryType": "Domination",
-	        "food": 4,
+	        "food": 3,
 	        "production": 5,
 	        "gold": 2,
 	        "culture": 3,
@@ -41,7 +56,7 @@
 	        "production": 1,
 	        "gold": 3,
 	        "culture": 10,
-	        "science": 4,
+	        "science": 3,
 	        "faith": 6,
 	        "military": 6,
 	        "warMongering": 4,
@@ -51,7 +66,8 @@
     "Aesthetics": 10,
     "Piety": 20,
     "Order": 10
-}
+},
+"uniques": ["Will not build [Siege]"] 
 	},
 	{
 		"name": "Daegon",
@@ -76,24 +92,25 @@
 		"name": "Grimhorn",
 		"preferredVictoryType": "Domination",
 	        "food": 3,
-	        "production": 2,
+	        "production": 1,
 	        "gold": 6,
-	        "culture": 4,
+	        "culture": 3,
 	        "science": 1,
-	        "faith": 4,
-	        "military": 10,
+	        "faith": 5,
+	        "military": 9,
 	        "warMongering": 10,
 "priorities": {
     "Honor": 40,
     "Liberty": 20,
     "Commerce": 10,
-}
+},
+"uniques": ["Will not build [Naval]"] 
 	},
 {
 		"name": "Takashi no Seme Abe",
 		"preferredVictoryType": "Cultural",
 	        "food": 4,
-	        "production": 3,
+	        "production": 2,
 	        "gold": 3,
 	        "culture": 8,
 	        "science": 4,
@@ -113,7 +130,7 @@
 	        "production": 5,
 	        "gold": 10,
 	        "culture": 7,
-	        "science": 7,
+	        "science": 8,
 	        "faith": 2,
 	        "military": 2,
 	        "warMongering": 2,
