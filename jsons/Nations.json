@@ -35,7 +35,7 @@
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Medieval era]>",
 					"[+1 Production] in cities on [Hill] tiles <starting from the [Industrial era]>", "[+1 Production] in cities on [Hill] tiles <starting from the [Atomic era]>",
 
-					"[+25]% Strength for cities <in [Hill] tiles> <starting from the [Classical era]>", "[-1] Movement <for [Land] units> <in [Land] tiles>", "[+15]% Strength <when defending> <for [Land] units> <vs [Melee] units>", "[+15]% Strength <when defending> <for [Land] units> <when below [26] HP>", "[-40]% growth [in all non-occupied cities]"],
+					"[+25]% Strength for cities <in [Hill] tiles> <starting from the [Classical era]>", "[-1] Movement <for [Land] units> <in [Land] tiles>", "[+15]% Strength <when defending> <for [Land] units> <vs [Melee] units>", "[+15]% Strength <when defending> <for [Land] units> <when below [26] HP>", "[-70]% growth [in all non-occupied cities]"],
 		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Gregg's","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
 			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
 		"civilopediaText": [
@@ -106,8 +106,8 @@
 		"innerColor": [146,226,9],
 		"uniqueName": "Endless Horde",
 	//	"uniqueText": "+20% Production when constructing Military Land units in all cities\n+20% Flank attack bonuses",
-		"uniques": ["[+40]% Production when constructing [{Melee} {Land}] units [in all non-occupied cities]", "[+20]% Strength <for [{Melee} {Land}] units>", "[-20]% [Science] [in all cities]", "[-10]% growth [in all non-occupied cities]",
-					"[+50]% Strength <for [{Melee} {Land}] units> <when attacking> <when below [34] HP>", "[-25]% Strength <for [{Melee} {Land}] units> <when defending> <vs [Ranged] units> <when below [33] HP>", "[+15]% Unhappiness from [Population] [in all non-occupied cities] <when not at war>", "Cities are razed [2] times as fast", "Free [Sword] appears <upon gaining a [Sword] unit> <with [33]% chance>"], 
+		"uniques": ["[+40]% Production when constructing [{Melee} {Land}] units [in all non-occupied cities]", "[+20]% Strength <for [{Melee} {Land}] units>", "[-25]% [Science] [in all cities]", "[-10]% growth [in all non-occupied cities]",
+					"[+50]% Strength <for [{Melee} {Land}] units> <when attacking> <when below [34] HP>", "[-25]% Strength <for [{Melee} {Land}] units> <when defending> <vs [Ranged] units> <when below [33] HP>", "[+33]% Unhappiness from [Population] [in all non-occupied cities] <when not at war>", "Cities are razed [2] times as fast", "Free [Warrior] appears <upon gaining a [Warrior] unit> <with [33]% chance>", "Free [Swordsman] appears <upon gaining a [Swordsman] unit> <with [33]% chance>"], 
 		"cities": ["Gholug","Xruul","Ungh","Tagdud","Gruh","Mazoga","Glug","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
 		"civilopediaText": [
@@ -239,14 +239,14 @@
 		
 		"neutralHello": "Namárië.",
 		"hateHello": "Begone.",
-		"tradeRequest": "oH mY fUcKiNg GaWd Oh Im A lItTlE sCeNe SlUt ImMa PuKe OuT mY gUtS pLeAsE sToP t \ndoo doo d d dh do do dh do doo d dh dh doo doo d.",
+		"tradeRequest": "oH mY fUcKiNg gOd Oh I ImMmMmMa PuKe OuT mY doo doo d d dh do do dh do doo d dh dh doo doo d.",
 		
 		"outerColor": [225,249,73],
-		"innerColor": [ 70,  1, 4],
+		"innerColor": [ 40,  214, 21],
 		"uniqueName": "One with Nature",
 		//"uniqueText": "Starts with Archery\n+1 [Culture] from every Forest tiles adjacent to Jungle tile\n+1 [Faith] from every Jungle tiles adjacent to Forest tile",
-		"uniques": ["[+66]% Yield from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+2 Faith, +1 Science] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>", "[+1] Happiness from each type of luxury resource", "Unhappiness from number of Cities doubled", "[+100]% Yield from every [Natural Wonder]", "[+1 Culture] in cities on [River] tiles", "All newly-trained [Land] units [in all non-occupied cities] receive the [Ignore terrain cost] promotion","[+1 Science, +1 Culture] from all [Faith] buildings",
-				"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[+1 Culture, +1 Faith] from [Forest] tiles [in capital]", "[-60]% growth [in all non-occupied cities]", "Starts with [Archery]"], 
+		"uniques": ["[+1 Culture] from [Forest] tiles without [improved] [in all cities]", "[+66]% Yield from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+2 Faith, +1 Science] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>", "Unhappiness from number of Cities doubled", "[+100]% Yield from every [Natural Wonder]", "[+1 Culture] in cities on [River] tiles", "All newly-trained [Land] units [in all non-occupied cities] receive the [Ignore terrain cost] promotion","[+1 Science, +1 Culture] from all [Faith] buildings",
+				"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[+1 Culture, +1 Faith] from [Forest] tiles [in capital]", "[-90]% growth [in all non-occupied cities]", "Each city founded increases culture cost of policies [-150]% less than normal", "Starts with [Archery]"], 
 		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
 		"civilopediaText": [
@@ -684,13 +684,13 @@
 		"introduction": "I am a horseman we are the horseman",
 		
 		"neutralHello": "Greetings biped.",
-		"hateHello": "Bastard.",
+		"hateHello": "Bastard. As if things weren't bad enough.",
 		"tradeRequest": "I can throw in some spare horses with that.",
 		
 		"outerColor": [165,51,51],
-		"innerColor": [84,52,32],
+		"innerColor": [84,22,62],
 		"uniqueName": "Running with the herd",
-		"uniques": ["[+2] Movement <for [Land] units>", "[-2] Movement <for [Armor] units>", "[+100]% to Flank Attack bonuses <for [Land] units>", "[-100]% to Flank Attack bonuses <for [Armor] units>", "No defensive terrain bonus <for [Land] units>", "[-33]% Strength <vs [Spearman] units> <for [Sword] units>", "[-33]% Strength <vs [Spearman] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Spearman] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Spearman] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Pikeman] units> <for [Sword] units>", "[-33]% Strength <vs [Pikeman] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Pikeman] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Pikeman] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Formation I] units> <for [Sword] units>", "[-33]% Strength <vs [Formation I] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Formation I] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Formation I] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% growth [in all non-occupied cities]", "Cannot build [Mounted] units"], 
+		"uniques": ["[+2] Movement <for [Land] units>", "[-2] Movement <for [Armor] units>", "[+100]% to Flank Attack bonuses <for [Land] units>", "[-100]% to Flank Attack bonuses <for [Armor] units>", "No defensive terrain bonus <for [Land] units>", "[-33]% Strength <vs [Spearman] units> <for [Sword] units>", "[-33]% Strength <vs [Spearman] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Spearman] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Spearman] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Pikeman] units> <for [Sword] units>", "[-33]% Strength <vs [Pikeman] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Pikeman] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Pikeman] units> <for [Ranged Gunpowder] units> <when defending>", "[-33]% Strength <vs [Formation I] units> <for [Sword] units>", "[-33]% Strength <vs [Formation I] units> <for [Gunpowder] units>", "[-33]% Strength <vs [Formation I] units> <for [Archery] units> <when defending>", "[-33]% Strength <vs [Formation I] units> <for [Ranged Gunpowder] units> <when defending>", "[-45]% growth [in all non-occupied cities]", "Cannot build [Mounted] units", "[+2 Happiness] from [Wine] tiles [in all cities]"], 
 		"cities": ["Konstan","Apios","Oretus","Stergeneus","Barbadia","Naesima","Depheis","Monolea","Kaselaia","Arganassa","Haiderine","Zeran",
 			"Erasandrou","Perridas","Thomeimon","Coleros","Eusantes"],
 		"civilopediaText": [
@@ -719,14 +719,14 @@
 		"defeated": "A pity that I won't be able to see Prosperity.",
 		"introduction": "I am Takashi no Seimei, welcome to our land! Please, take off your shoes.",
 		
-		"neutralHello": "Greetings sir, what matters bring you here?",
+		"neutralHello": "Greetings sir. What matters bring you here?",
 		"hateHello": "The vermin wants to talk, then you shall talk.",
 		"tradeRequest": "We've come to bargain Sir.",
 		
 		"outerColor": [218,165,32],
 		"innerColor": [16,2,214],
 		"uniqueName": "Jojo's Bizzare Adventure: Eyes Of Heaven™",
-                "uniques": ["[+1 Faith, +1 Culture, +1 Food] from [Mountain] tiles [in all cities] <when not at war>", "[+2 Faith, +1 Culture] from [Mountain] tiles [in all cities]<with [0] to [0] neighboring [Mountain] tiles>", "[+1 Faith] from [Camp] tiles [in all cities]", "[1] free [Tsukaima] units appear <upon constructing [Shrine]> <with [80]% chance>", "[1] free [Tsukaima] units appear <upon constructing [Temple]> <with [40]% chance>", "[1] free [Tsukaima] units appear <upon gaining a [Religious Unit] unit> <with [20]% chance>"],
+                "uniques": ["[+1 Faith, +1 Culture, +1 Food] from [Mountain] tiles [in all cities] <when not at war>", "[+1 Culture] from [Mountain] tiles [in all cities] <with [0] to [0] neighboring [Mountain] tiles>", "[+1 Faith] from [Mountain] tiles [in all cities] <when not at war>", "[+1 Faith] from [Camp] tiles [in all cities]", "[1] free [Tsukaima] units appear <upon constructing [Shrine]> <with [80]% chance>", "[1] free [Tsukaima] units appear <upon constructing [Temple]>", "[1] free [Tsukaima] units appear <upon gaining a [Religious Unit] unit> <with [20]% chance>"],
 		//"uniqueText": "Gain access to 4 unique National Wonders after researching Mathematics, Guilds, Writing, and Theology",
 		"cities": ["Hakensei","Yosugaichi","Nakahama","Kissakichi","Kinkasaki","Hakutaichi","Mizutora","Nagisaichi","Yamazaka","Tobarichi","Kyoshi","Kotobukichi","Kuroganichi","Nagakura","Touhama","Fujihidaka","Kumamoto","Emishichi","Shingawa",
 			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
@@ -1286,7 +1286,7 @@
 		"uniqueName": "Forced Levy",
 		"uniqueText": "May purchase strongest available Melee unit with population once per city\n+2 [Gold], +2 [Production] in annexed cities",
 		"uniques": ["[+2 Gold, +3 Production] [in annexed cities]",
-					"New [Wrecker Maceman] units start with [15] Experience [in all cities]", "[+2 Production, -1 Culture, -1 Happiness] [in all cities]"],
+					"New [Wrecker Maceman] units start with [15] Experience [in all cities]", "[+3 Production, -1 Culture, -1 Happiness] [in all cities]", "[-4 Happiness, +7 Production] [in all cities with a garrison]"],
 		"cities": ["Drogon","Taygete","Grimrock","Haruspex","Hatena","Kujata","Makantor","Moloki","Rizen","Thulu","Isenmaar",
 			"Knosph","Squelor","Atabury","Golonac","Ototh"],
 		"civilopediaText": [
