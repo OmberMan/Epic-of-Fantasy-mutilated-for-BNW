@@ -2292,7 +2292,7 @@ UnitIcons/Pitlord
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Potionist
+NationIcons/Doggerland
   rotate: false
   xy: 328, 596
   size: 100, 100
