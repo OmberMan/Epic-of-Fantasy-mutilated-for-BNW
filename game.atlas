@@ -2320,7 +2320,7 @@ UnitIcons/Sarissa Hippeus
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Scorcher
+NationIcons/Lemuria
   rotate: false
   xy: 112, 164
   size: 100, 100
@@ -2362,7 +2362,7 @@ UnitIcons/Sun Obelisk
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Tauren Totemwielder
+NationIcons/Rawaenganuipo
   rotate: false
   xy: 328, 272
   size: 100, 100
