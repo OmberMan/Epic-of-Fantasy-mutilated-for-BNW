@@ -2208,7 +2208,7 @@ UnitIcons/Guardian
   orig: 64, 64
   offset: 0, 0
   index: -1
-UnitIcons/Motaari
+UnitIcons/Macan Bodas
   rotate: false
   xy: 4, 812
   size: 100, 100
@@ -2390,7 +2390,7 @@ UnitIcons/Treant Worker
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Troll Headhunter
+UnitIcons/Loko Archer
   rotate: false
   xy: 1084, 920
   size: 100, 100
