@@ -1,8 +1,8 @@
 [	
   {                
-  "name": "The Crownlands",
+  "name": "Valyria",
 
-                "leaderName": "Aerys II Targaryen",
+                "leaderName": "Yaekubeys MVII Targaryen",
 
                 "adjective": ["Lizard Fetishist"],
 
@@ -10,7 +10,7 @@
 
                 "startBias": ["Hill"],
 
-                "preferredVictoryType": "Diplomatic",
+                "preferredVictoryType": "Domination",
 
                 "style": "Nordic",
 
@@ -33,7 +33,7 @@
                 "cities": ["Valyria", "Oros"],
 
 "uniqueName": "Imagine Dragon these Chains",
-                "uniques": ["[+1] population [in capital] <upon conquering a city>", "[-1] population in a random city <upon conquering a city>", "[+12]% Production when constructing [All] wonders [in capital] <during a Golden Age>"], 
+                "uniques": ["[+1] population [in capital] <upon conquering a city>", "[-1] population in a random city <upon conquering a city>", "[+12]% Production when constructing [All] wonders [in capital] <during a Golden Age>", "Free [Dragon Rider] appears <upon building a [Mine] improvement> <with [10]% chance>"], 
 },
 	//Higba of Dwarven Kingdom
 	{
