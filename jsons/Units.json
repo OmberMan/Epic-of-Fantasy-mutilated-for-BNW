@@ -13,7 +13,7 @@
 		"promotions": ["Exposed Core"],
 		"uniques": ["Construct", "No defensive terrain bonus"],
 		"hurryCostModifier": 40,
-		"attackSound": "gdrattack",
+		"attackSound": "gdrAttack",
 		"civilopediaText": [
 			{"text": "A construct made of Orichalcum. Its sturdiness exceeds that of a Diamond. This makes the golem a formidable foe in the battlefield."},
         ]
@@ -98,7 +98,7 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["[-15]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles", "No movement cost to pillage", "Damage is ignored when determining unit Strength"],
+		"uniques": ["[-20]% Strength <when defending>", "Can build [Improved Barricade] improvements on tiles", "No movement cost to pillage", "Damage is ignored when determining unit Strength"],
                 "promotions": ["Blitz"],
 		"hurryCostModifier": 15,
 		"attackSound": "metalhit",
