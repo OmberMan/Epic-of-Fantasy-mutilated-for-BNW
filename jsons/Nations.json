@@ -138,12 +138,12 @@
 		"hateHello": "Hghh...",
 		"tradeRequest": "Letz banter, ey? I give you good stuff, you give us good stuff, deal?",
 		
-		"outerColor": [ 36,83,37],
-		"innerColor": [146,226,9],
+		"outerColor": [ 36,83,39],
+		"innerColor": [156,246,19],
 		"uniqueName": "Endless Horde",
 	//	"uniqueText": "+20% Production when constructing Military Land units in all cities\n+20% Flank attack bonuses",
 		"uniques": ["[+40]% Production when constructing [{Melee} {Land}] units [in all non-occupied cities]", "[+20]% Strength <for [{Melee} {Land}] units>", "[-25]% [Science] [in all cities]", "[-15]% growth [in all non-occupied cities]",
-					"[+50]% Strength <for [{Melee} {Land}] units> <when attacking> <when below [34] HP>", "[-25]% Strength <for [{Melee} {Land}] units> <when defending> <vs [Ranged] units> <when below [33] HP>", "[+33]% Unhappiness from [Population] [in all non-occupied cities] <when not at war>", "Cities are razed [2] times as fast", "Free [Warrior] appears <upon gaining a [Warrior] unit> <with [33]% chance>", "Free [Swordsman] appears <upon gaining a [Swordsman] unit> <with [33]% chance>"], 
+					"[+50]% Strength <for [{Melee} {Land}] units> <when attacking> <when below [34] HP>", "[-25]% Strength <for [{Melee} {Land}] units> <when defending> <vs [Ranged] units> <when below [33] HP>", "[+33]% Unhappiness from [Population] [in all non-occupied cities] <when not at war>", "Cities are razed [2] times as fast", "Free [Warrior] appears <upon gaining a [Warrior] unit> <with [40]% chance>", "Free [Swordsman] appears <upon gaining a [Swordsman] unit> <with [40]% chance>"], 
 		"cities": ["Gholug","Xruul","Ungh","Tagdud","Gruh","Mazoga","Glug","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
 			"Nargol","Yotul","Homraz","Gonk","Mor"],
 		"civilopediaText": [
@@ -281,8 +281,8 @@
 		"innerColor": [ 21,  214, 40],
 		"uniqueName": "One with Nature",
 		//"uniqueText": "Starts with Archery\n+1 [Culture] from every Forest tiles adjacent to Jungle tile\n+1 [Faith] from every Jungle tiles adjacent to Forest tile",
-		"uniques": ["[+1 Culture] from [Forest] tiles without [improved] [in all cities]", "[+66]% Yield from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+2 Faith, +1 Science] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>", "Unhappiness from number of Cities doubled", "[+100]% Yield from every [Natural Wonder]", "[+1 Culture] in cities on [River] tiles", "All newly-trained [Land] units [in all non-occupied cities] receive the [Ignore terrain cost] promotion","[+1 Science, +1 Culture] from all [Faith] buildings",
-				"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[+1 Culture, +1 Faith] from [Forest] tiles [in capital]", "[-90]% growth [in all non-occupied cities]", "Each city founded increases culture cost of policies [-150]% less than normal", "Starts with [Archery]"], 
+		"uniques": ["[+1 Culture] from [Forest] tiles without [improved] [in all cities]", "[+100]% Yield from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+2 Faith, +1 Science] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>", "Unhappiness from number of Cities doubled", "[+100]% Yield from every [Natural Wonder]", "[+1 Culture] in cities on [River] tiles", "All newly-trained [Land] units [in all non-occupied cities] receive the [Ignore terrain cost] promotion","[+1 Science, +1 Culture] from all [Faith] buildings",
+				"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[+3 Culture, +2 Faith] from [Forest] tiles [in capital]", "[-80]% growth [in all non-occupied cities]", "Each city founded increases culture cost of policies [-150]% less than normal", "Starts with [Archery]"], 
 		"cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
 			"Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
 		"civilopediaText": [
@@ -317,7 +317,7 @@
 		"outerColor": [3, 24, 64],
 		"innerColor": [0,242,189],
 		"uniqueName": "Darkest Salvation",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Gain a free [Old God Monument] [in annexed cities]", "[+1 Food, +2 Culture, +1 Production] from every [Marsh]", "[+26]% Strength <for [All] units> <when fighting in [Marsh] tiles>", "[+1 Faith] from [Mine] tiles [in holy cities]"], 
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Gain a free [Old God Monument] [in annexed cities]", "[+1 Food, +2 Culture, +1 Production] from every [Marsh]", "[+33]% Strength <for [All] units> <when fighting in [Marsh] tiles>", "[+3 Faith] from [Mine] tiles [in holy cities]", "[+33]% Strength <for [Land] units> <when defending>", "[-33]% Strength <for [Land] units> <on foreign continents> <when defending>", "Gain [60]-[80] [Faith] <upon building a [Quarry] improvement>"], 
 		"cities": ["Zhall'ru","Eldhurst","Creeton","Khadram","Agranthin","Itlognig","Zaa-nag","Lihlelica","Nathosh","Sokrlithuact","Closarugn","Kitl-zothat",
 			"Iggtharacama","Mighanot","Yubotho","Athotuaq","C'darhothon"],
 		"civilopediaText": [
