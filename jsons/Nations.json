@@ -239,10 +239,10 @@
 		
 		"neutralHello": "Namárië.",
 		"hateHello": "Begone.",
-		"tradeRequest": "oH mY fUcKiNg gOd Oh I ImMmMmMa PuKe OuT mY doo doo d d dh do do dh do doo d dh dh doo doo d.",
+		"tradeRequest": "doo doo d d dh do do dh do doo d dh dh doo doo d.",
 		
-		"outerColor": [239,215,53],
-		"innerColor": [ 21,  214, 40],
+		"outerColor": [30,150,50],
+		"innerColor": [ 195,  50, 112],
 		"uniqueName": "One with Nature",
 		//"uniqueText": "Starts with Archery\n+1 [Culture] from every Forest tiles adjacent to Jungle tile\n+1 [Faith] from every Jungle tiles adjacent to Forest tile",
 		"uniques": ["[+1 Culture] from [Forest] tiles without [improved] [in all cities]", "[+100]% Yield from every [Forest] <with [1] to [6] neighboring [Jungle] tiles>", "[+2 Faith, +1 Science] from every [Jungle] <with [1] to [6] neighboring [Forest] tiles>", "Unhappiness from number of Cities doubled", "[+100]% Yield from every [Natural Wonder]", "[+1 Culture] in cities on [River] tiles", "All newly-trained [Land] units [in all non-occupied cities] receive the [Ignore terrain cost] promotion","[+1 Science, +1 Culture] from all [Faith] buildings",
@@ -366,9 +366,11 @@
 	
 	//Menedaius of Argonautian States
 	{
-		"name": "Argonautian States",
-		"leaderName": "Menedaius",
-		"adjective": ["Argonauts"],
+		"name": "Mycenae",
+		"leaderName": "Agamemnon",
+		"adjective": ["Mycenaen"],
+"personality": "Mycenae",
+		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
                 "style": "Mediterranean",
 		
@@ -378,7 +380,7 @@
 		"declaringWar": "In battle we are the most glorious. Let's dance on the battlefield, shall we?.",
 		"attacked": "Oho, a battle you say? Come then, we will strike you down!",
 		"defeated": "I respect your abilities in warfare. It's my loss.",
-		"introduction": "Well met stranger, I am Menedaius, the head of the Argonautian States. Do I see a fellow warrior of honor?",
+		"introduction": "Well met stranger, I am Agamemnon, and I am argooning. Do I see a fellow warrior of honor?",
 		
 		"neutralHello": "My honorable guest, greetings.",
 		"hateHello": "What?",
@@ -386,7 +388,7 @@
 		
 		"outerColor": [6,134,234],
 		"innerColor": [251,255,255],
-		"uniqueName": "Heroic Tales",
+		"uniqueName": "Cyclopean Construction",
 		//"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free different unique Heroic General every era in capital",
 		"uniques": ["[Great General] is earned [+100]% faster", "[+25]% XP gained from combat", "Military Units gifted from City-States start with [20] XP"], 
 		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
