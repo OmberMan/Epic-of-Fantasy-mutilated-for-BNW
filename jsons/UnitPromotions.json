@@ -8,9 +8,21 @@
         "row": 0,
         "column": 0
     },
+{
+		"name": "Bronze Age Reavers",
+		"prerequisites": ["Accuracy I"],
+		"uniques": ["[amount] Movement point cost to disembark", "", ""
+	{"],
 
+},
+{
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+},
 	// Ranged+Siege
-	{
+{
 		"name": "Accuracy I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
