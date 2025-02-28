@@ -7,7 +7,7 @@
 	"cityStrength": 7,
 "culture": 1,
 "happiness" -1,
-		"cityHealth": 170,
+		"cityHealth": 150,
 		"hurryCostModifier": 50,
   "cost": 125,
 		"requiredTech": "Masonry",
@@ -15,7 +15,7 @@
 				["[+1 Faith] <starting from the [Classical era]>", 
 "[-1 Faith, +1 Gold] <starting from the [Industrial era]>", 
 					"[+1 Production] after adopting [Honor]>",
-					"[+1 Culture] after adopting [policy/belief]>"]
+					"[+1 Production] after adopting [Monarchy]>"]
 },
 	/* No need anymore
 	{
