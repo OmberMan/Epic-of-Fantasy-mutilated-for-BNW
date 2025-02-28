@@ -10,11 +10,8 @@
     },
 {
 		"name": "Bronze Age Reavers",
-		"prerequisites": ["Accuracy I"],
-		"uniques": ["[amount] Movement point cost to disembark", "", ""
-	{"],
-
-},
+		"uniques": ["[1] Movement point cost to disembark", "Eliminates combat penalty for attacking across a coast", ""]
+	},
 {
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
