@@ -487,7 +487,7 @@ ImprovementIcons/Lodepit
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Argonautian States
+NationIcons/Mycenae
   rotate: false
   xy: 1620, 812
   size: 100, 100
@@ -704,7 +704,7 @@ TileSets/FantasyHex/Units/Great Scientist-Orcish
   orig: 800, 800
   offset: 0, 0
   index: -1
-UnitIcons/Achilles
+UnitIcons/Bronze Age Reavers
   rotate: false
   xy: 1620, 1136
   size: 100, 100
