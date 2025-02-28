@@ -23,6 +23,31 @@
 }
 	},
 {
+                "name": "Mycenae",
+                "preferredVictoryType": "Domination",
+                "food": 3,
+                "production": 7,
+                "gold": 6,
+                "culture": 7,
+                "science": 6,
+                "faith": 4,
+                "military": 8,
+                "warMongering": 10,
+      "aggressive": 7,
+      "declareWar": 9,
+      "commerce": 5,
+      "diplomacy": 4,
+      "loyal": 3,
+      "expansion": 6,
+"priorities": {
+    "Tradition": 20,
+    "Honor": 50,
+    "Autocracy": 30,
+"Exploration": 20,
+"Aesthetics": 10
+}
+        },
+{
                 "name": "Yurr",
                 "preferredVictoryType": "Neutral",
                 "food": 8,
