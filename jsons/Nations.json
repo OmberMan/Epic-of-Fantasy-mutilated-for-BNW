@@ -386,10 +386,10 @@
 		"hateHello": "What?",
 		"tradeRequest": "Our generous nation makes you this offer.",
 		
-		"outerColor": [6,134,234],
-		"innerColor": [251,255,255],
+		"outerColor": [185,165,35],
+		"innerColor": [180,20,20],
 		"uniqueName": "Cyclopean Construction",
-		//"uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free different unique Heroic General every era in capital",
+		"uniqueText": "Defensive buildings give 12% [Production] towards Melee units, and are built 50% faster on cities on [Hill]. Sword and Melee gun units are 20% stronger on foreign continents. Gain Great Artists 25% faster during wars.",
  "uniques": ["[+50]% Production when constructing [Walls] buildings [in all cities] <in [Hill] tiles>", "[+12]% Production when constructing [Melee] units [in all cities] <in cities with a [Walls]>", "[+50]% Production when constructing [Castle] buildings [in all cities] <in [Hill] tiles>", "[+12]% Production when constructing [Melee] units [in all cities] <in cities with a [Castle]>", "[+50]% Production when constructing [Arsenal] buildings [in all cities] <in [Hill] tiles>", "[+12]% Production when constructing [Melee] units [in all cities] <in cities with a [Arsenal]>", "[+50]% Production when constructing [Military Base] buildings [in all cities] <in [Hill] tiles>", "[+12]% Production when constructing [Melee] units [in all cities] <in cities with a [Military Base]>", "[+12]% Production when constructing [Melee] units [in all cities] <in cities with a [Bomb Shelter]>", "[+50]% Production when constructing [Military Base] buildings [in all cities] <in [Hill] tiles>", "[+12]% Production when constructing [Melee] units [in all cities] <in cities with a [Bomb Shelter]>"],
                
 		"cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
