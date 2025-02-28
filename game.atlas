@@ -704,7 +704,7 @@ TileSets/FantasyHex/Units/Great Scientist-Orcish
   orig: 800, 800
   offset: 0, 0
   index: -1
-UnitIcons/Bronze Age Reavers
+UnitPromotionIcons/Bronze Age Reavers
   rotate: false
   xy: 1620, 1136
   size: 100, 100
@@ -2313,7 +2313,7 @@ UnitIcons/Rockspewer
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Sarissa Hippeus
+UnitPromotionIcons/Odyssian Ingenuity
   rotate: false
   xy: 760, 920
   size: 100, 100
@@ -2453,7 +2453,7 @@ UnitIcons/Zealot
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Agoge
+UnitIcons/Enchophoros
   rotate: false
   xy: 1722, 638
   size: 50, 50
