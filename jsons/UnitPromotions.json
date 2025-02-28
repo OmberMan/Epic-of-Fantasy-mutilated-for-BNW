@@ -15,7 +15,7 @@
 {
 		"name": "Odyssian Ingenuity",
 		"prerequisites": ["Bronze Age Reavers"],
-		"uniques": ["[+60]% Strength <vs [City]> <when attacking>"],
+		"uniques": ["[+60]% Strength <vs [City]> <when attacking>", "[+200]% maintenance costs"],
 },
 	// Ranged+Siege
 {
