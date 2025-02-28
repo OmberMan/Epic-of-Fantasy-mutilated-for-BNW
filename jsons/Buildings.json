@@ -6,7 +6,7 @@
 		"replaces": "Walls",
 	"cityStrength": 7,
 "culture": 1,
-"happiness" -1,
+"happiness": -1,
 		"cityHealth": 150,
 		"hurryCostModifier": 50,
   "cost": 125,
