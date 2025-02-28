@@ -13,8 +13,7 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+20]% Strength <when defending> <vs [Ranged] units>"],
 		"promotions": ["Bronze Age Reavers"],
-		"attackSound": "throw",
-        ]
+		"attackSound": "throw"
 	},
 	{
 		"name": "Orichalcum Golem",
