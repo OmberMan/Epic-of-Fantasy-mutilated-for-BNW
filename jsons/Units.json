@@ -11,7 +11,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+20]% Strength <when defending> <vs [Ranged] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+20]% Strength <when defending> <vs [Ranged] units>", "[+25]% XP gained from combat"],
 		"promotions": ["Bronze Age Reavers"],
 		"attackSound": "throw"
 	},
